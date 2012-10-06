@@ -1,0 +1,391 @@
+"049","409","650 West 42nd Street","River Place","Block bounded by Eleventh Avenue, Twelfth Avenue, West 41st Street, and West 42nd Street","under construction","4","1089/1","Public Open Space",24458.00,,,,,,,,
+,"501","210 Central Park South",,"Central Park South between Seventh Avenue and Broadway","1968","5","1030/39",,,,,,,,,,0.00
+"141","502","36 Central Park South","Park Lane Hotel","South side of Central Park South between Fifth and Sixth Avenues","1971","5","1274/11","Plaza",1958.00,"Arcade",2098.00,,,,,,0.00
+"143","503","767 Fifth Avenue","General Motors Building at Trump International Plaza","East side of Fifth Avenue between East 58th and 59th Streets","1968","5","1294/1","Plaza",19335.00,"Arcade",1971.00,,,,,,0.00
+"144","504","500 Park Avenue","500 Park Tower","Southwest corner of Park Avenue and East 59th Street","1984","5","1294/1001-1060, 9037","Urban Plaza",1479.00,"Sidewalk Widening",1173.40,"Arcade",2695.00,,,,0.00
+"148","505","499 Park Avenue",,"Southeast corner of Park Avenue and East 59th Street","1980","5","1313/4","Glass-Enclosed Urban Plaza Equivalent",1450.00,"Open Urban Plaza Equivalent",525.00,"Through Block Arcade Equivalent",1540.00,"Sidewalk Widening Equivalent",487.00,,0.00
+"147","506","110 East 59th Street",,"South side of East 59th Street between Lexington and Park Avenues","1968","5","1313/5","Plaza (in C5-3)",4786.00,"Plaza (in C6-4)",398.00,"Arcade",4210.00,,,,0.00
+"145","507","115 East 57th Street","Galleria","North side of East 57th Street between Lexington and Park Avenues","1974","5","1312/8, 62,63,1001-1252","Covered Pedestrian Space",7419.29,,,,,,,,0.00
+"142","508","9 West 57th Street","Solow","North side of West 57th Street between Fifth and Sixth Avenues","1972","5","1273/22,44","Plaza",17596.90,"Arcade",10970.90,,,,,,0.00
+"140","509","58 West 58th Street",,"South side of West 58th Street between Fifth and Sixth Avenues","1968","5","1273/1001-1176","Plaza",4918.48,"Arcade",1500.00,,,,,,
+"138","510","211 West 56th Street","Carnegie Mews","Northeast corner of West 56th Street and Broadway","1976","5","1028/17","Plaza",4773.50,,,,,,,,0.00
+"083","5100","1548 Broadway","Bertelsmann","East side of Broadway between West 45th and West 46th Streets","1989","5","998/1001-1005,8","Through Block Connection",3012.00,,,,,,,,
+"043","148","105 Duane Street","Tribeca Tower","North side of Duane Street between Broadway and Trimble Place","1989","1","151/1,5,20,22","Residential Plaza",11587.49,,,,,,,,0.00
+"022A","149","15 Cliff Street",,"West side of Cliff Street between John and Fulton Streets","2001","1","76/9","Urban Plaza",3565.00,,,,,,,,
+"24A","150","2 Gold Street",,"East side of Gold Street between Maiden Lane and Platt Street","under construction","1","69/4,6,7,10,18,23","Urban Plaza",6512.00,,,,,,,,
+"36A","151","123 Washington Street",,,"under construction","1","53/23, 28","Urban Plaza",5978.00,,,,,,,,
+"047","201","60 East 8th Street","Georgetown Plaza","Southeast corner of East 8th and Mercer Streets","1966","2","548/1001-1003","Plaza",10975.00,,,,,,,,0.00
+"046","202","300 Mercer Street",,"Northeast corner of Mercer Street and Waverly Place","1974","2","548/70","Plaza",11459.00,"Arcade",2185.70,,,,,,0.00
+"045","203","375 Hudson Street","Saatchi & Saatchi","Full block bounded by Hudson, Greenwich, King Streets, and West Houston Streets","1987","2","599/64","Plaza",13163.87,"Arcade",2454.30,,,,,,
+"048","204","99 Jane Street",,"Full blockfront on west side of Washington Street between Jane and Horatio Streets","1999","2","642/14,19,30","Park",7000.00,,,,,,,,
+,"205","756 Washington Street",,"West side of Washington Street between West 12th and Bethune Streets","2004","2",,,,,,,,,,,
+"44A","206","246 Spring Street",,"East side of Varick Street between Dominick and Spring Streets","not in construction","2","491/34,36","Urban Plaza",7709.00,"Arcade",1380.00,,,,,,
+"46A","207","26 Astor Place","Astor Place","South side of Astor Place between Lafayette Street and Cooper Square","under construction","2","544/22","Residential Plaza",4498.00,"Non-bonused Public Area",917.00,,,,,,
+"054","401","555 West 57th Street","BMW","Full blockfront on east side of Eleventh Avenue between West 57th and 58th Streets","1971","4","1086/1","Plaza",14359.00,"Arcade",9061.00,,,,,,0.00
+"053","402","347 West 57th Street","Colonnade","North side of West 57th Street between Eighth and Ninth Avenues","1976","4","1048/1001-1250","Plaza",2150.00,,,,,,,,0.00
+"052","403","322 West 57th Street","Sheffield","South side of West 57th Street between Eighth and Ninth Avenues","1978","4","1047/18","Plaza",30629.00,"Arcade",3499.00,,,,,,0.00
+"050","404","825 Eighth Avenue","One Worldwide Plaza","Entire block bounded by Eighth Avenue, Ninth Avenue, West 49th Street and West 50th Street","1989","4","1040/29","Plaza",26806.00,"Elliptical Arcades",,"Subway Access Areas",,,,,0.00
+,"406","500 West 43rd Street","Strand","Southwest corner of West 43rd Street and Tenth Avenue",,"4","1071/1001-1013",,,,,,,,,,
+"051","407","330 West 56th Street",,"South side of West 56th Street between Eighth and Ninth Avenues","1974","4","1046/47","Plaza",2603.00,"Arcade",4898.00,,,,,,
+"055","408","1000 Tenth Avenue","St. Luke's-Roosevelt Hospital Center","Full block bounded by Ninth Avenue, Tenth  Avenue, West 58th Street, and West 59th Street","1990","4","1068/1","Public Open Space",13266.00,,,,,,,,
+"070","562","445 Fifth Avenue","Fifth Avenue Tower","Northeast corner of East 39th Street and  Fifth Avenue","1985","5","869/1001-1183","Urban Plaza",2263.00,,,,,,,,0.00
+"071","563","1411 Broadway","World Apparel Center","Full block bounded by Broadway and Seventh Avenue and West 39th and 40th Streets","1968","5","815/1","Plaza",15114.00,"Arcade",1329.00,,,,,,0.00
+"067","564","1 Pennsylvania Plaza","One Penn Plaza","Full block between Seventh and Eighth Avenues and West 33rd and 34th Streets","1972","5","783/1,34,70","Plaza",50095.50,"Arcade",3822.00,,,,,,
+"068","565","3 Park Avenue","Three Park Avenue","Full blockfront on east side of Park Avenue between East 33rd and 34th Streets","1974","5","889/1,9001","Plaza",8862.00,"Arcade",2761.00,,,,,,0.00
+"064","566","475 Park Avenue South",,"Southeast corner of East 32nd Street and Park Avenue South","1969","5","887/95","Plaza",6424.50,"Arcade",1542.75,,,,,,0.00
+"065","567","1250 Broadway",,"Full blockfront on the east side of Broadway between West 31st and 32nd Streets","1968","5","833/11","Plaza",8915.05,"Arcade",1097.32,,,,,,0.00
+"066","568","2 Pennsylvania Plaza","Two Penn Plaza/MadisonSquare Garden","Full blocks between Seventh and Eighth Avenues and West 31st and 33rd Streets","1967","5","781/1","Plaza (C6-2)",70958.00,"Plaza (C6-4)",11970.00,,,,,,0.00
+"060","569","41 Madison Avenue","New York Merchandise Mart","Southeast corner of East 26th Street and Madison Avenue","1972","5","855/1, 37","Plaza",4785.00,"Arcade",571.95,,,,,,0.00
+"057","570","5 East 22nd Street","Madison Green","Full blockfront on east side of Broadway between East 22nd and 23rd Streets","1983","5","851/1001-1435,61,62,63","Residential Plaza",13142.53,,,,,,,,0.00
+"056","571","108 Fifth Avenue",,"Southwest corner of West 16th Street Fifth Avenue","1986","5","817/1001-1052","Residential Plaza",1979.00,,,,,,,,0.00
+"058","572","50 Lexington Avenue",,"Northwest corner of East 24th Street and Lexington Avenue","1987","5","880/19","Residential Plaza",4304.50,,,,,,,,0.00
+,"573","466 Lexington Avenue","Park Avenue Atrium","West side of Lexington Avenue between East 45th and 46th Streets","1983/1920","5","1300/6,14","Atrium",,,,,,,,,
+"122","574","156 West 56th Street","CitySpire","South side of West 56th Street between Sixth and Seventh Avenues","1987","5","1008/1101-1443,15","Through Block Connection",3842.08,"Building Entrance Recess Area",682.54,,,,,,
+"115","575","135  West 52nd Street","Flatotel","North side of West 52nd Street between Sixth and Seventh Avenues","1985","5","1005/13","Through Block Galleria",6683.05,,,,,,,,
+"126","576","712 Fifth Avenue",,"West side of Fifth Avenue between West 55th and 56th Streets","1989","5","1271/30,38","Building Entrance Recess Area",,,,,,,,,
+"136","577","899 Seventh Avenue","Carnegie Hall Tower","North side of West 56th Street and south side of West 57th Street between Sixth and Seventh Avenues","1988","5","1009/1,5","Through Block Connection",3563.00,,,,,,,,
+"084","5101","114 West 47th Street","United States Trust","South side of  West 47th Street between Sixth and Seventh Avenues","1989","5","999/19","Through Block Connection",3012.45,,,,,,,,
+"121","5102","151 West 54th Street","Rihga Royal Hotel","North side of West 54th Street between Sixth and Seventh Avenues","1990","5","1007/5, 58","Through Block Connection",3012.45,,,,,,,,
+"069A","5103","425 Fifth Avenue",,"Northeast corner of Fifth Avenue and East 38th Street","Under Construction","5","868/1, 5, 70","Urban Plaza",3300.38,,,,,,,,
+,"5104","1585 Broadway",,,,"5","1019/1101 to 1141",,,,,,,,,,
+,"5105","239 West 52nd Street","Roseland",,,"5","1024/7,52",,,,,,,,,,
+"122A","5106","125 West 55th Street",,"North side of West 55th Street and south side of West 56th Street between Sixth and Seventh Avenues","1990","5","1008/19","Through Block Connection",3000.00,,,,,,,,
+"060A","5107","774 Sixth Avenue",,"East side of Sixth Avenue between West 26th and West 27th Streets","2002","5","828/1,4,5,74,77,80","Urban Plaza",10153.00,,,,,,,,
+"113A","5108","11 West 53rd Street","Museum of Modern Art","Midblock between West 53rd and 54th Streets between Fifth and Sixth Avenues","2003","5","1269/11,12,13,14,20, 58, 165","Through Block Lobby",8600.00,,,,,,,,
+"64A","5109","325 Fifth Avenue",,"East side of Fifth Avenue between East 32nd and East 33 Streets","in construction","5","862/3,4,73","Residential Plaza",8270.00,,,,,,,,
+"137","511","888 Seventh Avenue",,"West side of Seventh Avenue between West 56th and 57th Streets","1970","5","1028/29,42","Plaza",12317.00,,,,,,,,0.00
+"69A","5110","839 Sixth Avenue",,"West side of Sixth Avenue between West 29th and West 30th Streets","under construction","5","805/59","Urban Plaza",10819.00,,,,,,,,
+"134","512","118 West 57th Street","Le Parker Meridien Hotel","South side of West 57th Street between Sixth and Seventh Avenues","1979","5","1009/16-19; 9016-9019","Through Block Arcade",6820.00,"Plaza",3000.00,,,,,,0.00
+"133","513","40 West 57th Street",,"South side of West 57th Street between Fifth and Sixth Avenues","1972","5","1272/63","Plaza",5183.74,"Through Block Arcade",4366.12,,,,,,0.00
+"132","514","725 Fifth Avenue","Trump Tower","East side of Fifth Avenue between East 56th and 57th Streets","1983","5","1292/66,69,1001-1264","Covered Pedestrian Space",6626.00,"Landscaped Terraces",6336.00,"Passageway",,,,,0.00
+"131","515","590 Madison Avenue",,"Southwest corner of East 57th Street and Madison Avenue","1982","5","1292/15,64,8","Arcade",1851.00,"Covered Pedestrian Space",8261.00,"Through Block Arcade",4669.00,"Urban Plaza",1821.00,"Seating Area",0.00
+"130","516","450 Park Avenue",,"Southwest corner of Park Avenue and East 57th Street","1971","5","1292/37","Plaza",3900.00,,,,,,,,0.00
+"061","517","230 West 27th Street",,"South side of West 27th Street between Seventh and Eighth Avenues","1974","5","776/55","Plaza",3093.64,,,,,,,,
+"127","518","550 Madison Avenue","Sony","West side of Madison Avenue between East 55th and 56th Streets","1983","5","1291/10","Covered Pedestrian Space",10164.00,"Arcade",3542.00,,,,,,0.00
+"125","519","1370 Sixth Avenue","Continental Tower","Southeast corner of West 56th Street and Sixth Avenue","1971","5","1271/6,71","Plaza",4449.00,,,,,,,,0.00
+"120","520","230 West 55th Street","La Premiere","Southwest corner of West 55th Street and Broadway","1979","5","1026/49","Residential Plaza",5215.00,,,,,,,,0.00
+"123","521","1345 Sixth Avenue","Alliance Capital","West side of Sixth Avenue between West 54th Street and 55th Street","1968","5","1007/29","Plaza",30171.00,,,,,,,,0.00
+"124","522","1350 Sixth Avenue","Men's Apparel","Southeast corner of West 55th Street and Sixth Avenue","1966","5","1270/71","Plaza",5879.50,,,,,,,,0.00
+,"523","540 Madison Avenue","Finland House","Southwest corner of East 55th Street and Madison Avenue","1970","5","1290/56,14",,,,,,,,,,
+"128","524","535 Madison Avenue","Warburg Dillon Read","Northeast corner of East 54th Street and Madison Avenue","1982","5","1290/1001-1037","Urban Plaza",4869.30,"Arcade",1700.00,,,,,,0.00
+"110","525","520 Madison Avenue",,"West side of Madison Avenue between East 53rd and 54th Streets","1982","5","1289/8,14,160,58,56,107","Urban Plaza",2610.00,"Sidewalk Widening",5353.00,,,,,,0.00
+"113","526","1330 Sixth Avenue",,"East side of Sixth Avenue between West 53rd and 54th Streets","1965","5","1269/1","Plaza",6312.00,,,,,,,,0.00
+"117","527","825 Seventh Avenue","Tower 53","Northwest corner of West 53rd Street and Seventh Avenue","1967","5","1006/1001-1217","Plaza",2554.70,,,,,,,,0.00
+"119","528","1700 Broadway",,"Full blockfront on east side of Broadway between West 53rd and 54th Streets","1968","5","1025/25","Plaza",8241.00,,,,,,,,0.00
+"118","529","810 Seventh Avenue",,"Southwest corner of Seventh Avenue and West 53rd Street","1970","5","1024/38,29,131","Plaza",6575.00,,,,,,,,0.00
+"114","530","1301 Sixth Avenue",,"West side of Sixth Avenue between West 52nd and 53rd Streets","1964","5","1005/29","Plaza",18376.07,"Arcade",6863.54,,,,,,0.00
+"112","531","51 West 52nd Street","CBS","East Side of Sixth Avenue between West 52nd and 53rd Streets","1965","5","1268/1","Plaza",10731.60,,,,,,,,
+"109","532","10 East 53rd Street","HarperCollins","South side of East 53rd Street between Madison and Fifth Avenues","1971","5","1288/7","Plaza",2892.00,"Through Block Arcade",3723.50,,,,,,0.00
+"108","533","55 East 52nd Street","Park Avenue Plaza","North side of East 52nd Street between Park and Madison Avenues","1979","5","1288/27,24,33","Through Block Arcade",13000.00,,,,,,,,0.00
+"106","534","345 Park Avenue",,"East side of Park Avenue between East 51st and 52nd Streets","1968","5","1306/1","Plaza",24928.00,,,,,,,,0.00
+"103","535","645 Fifth Avenue","Olympic Tower","Northeast corner of East 51st Street and Fifth Avenue","1974","5","1287/1,63,69,71","Covered Pedestrian Space",8681.00,,,,,,,,0.00
+"102","536","650 Fifth Avenue",,"Southwest corner of West 52nd Street and Fifth Avenue","1977","5","1267/41","Covered Pedestrian Space",3363.00,"Cellar Floor Public Space",,,,,,,0.00
+"101","537","1285 Sixth Avenue","PaineWebber","Full block bounded by Sixth and Seventh Avenues and West 51st and 52nd Streets","1984","5","1004/20,29","Urban Plaza",9944.10,"Through Block Galleria",8185.96,"Sidewalk Widening (Pedestrian Circulation Space)",,,,,0.00
+"100","538","1633 Broadway","Paramount Plaza","West side of Broadway between West 50th and 51st Streets","1971","5","1022/43","Special Permit Plaza",24028.99,"Special Permit Arcade",8033.20,"Underground Concourse",6420.00,,,,
+"104","539","457 Madison Avenue","New York Palace Hotel","East side of Madison Avenue between East 50th and 51st Streets","1978","5","1286/30, 53 (formerly 21)","Courtyard",5914.30,,,,,,,,0.00
+"107","540","560 Lexington Avenue",,"Northwest corner of East 50th Street and Lexington Avenue","1981","5","1305/13","Arcade",2421.00,"Covered Pedestrian Space",3489.00,,,,,,0.00
+"093","541","437 Madison Avenue",,"East side of Madison Avenue between East 49th and 50th Streets","1968","5","1285/21","Plaza",11386.00,"Arcade",1348.00,,,,,,0.00
+"096","542","1251 Sixth Avenue","1251 Avenue of the Americas","West side of Sixth Avenue between West 49th and 50th Streets","1970","5","1002/29, part of 11","Plaza",29819.90,,,,,,,,0.00
+"097","543","1221 Sixth Avenue","McGraw-Hill","West side of Sixth Avenue between West 48th and 49th Streets","1971","5","1001/29","Plaza",28613.17,"Sunken Plaza",,,,,,,0.00
+,"544","600 Fifth Avenue","Manufacturers Hanover Trust","Northwest corner of  West 48th Street and Fifth Avenue","1952","5","1264/30",,,,,,,,,,
+"092","545","280 Park Avenue",,"West side of Park Avenue between East 48th and 49th Streets","1968","5","1284/26, 33","Plaza",17603.00,,,,,,,,0.00
+"091","546","299 Park Avenue","Westvaco","East side of Park Avenue between East 48th and 49th Streets","1967","5","1303/1,14","Plaza",15313.00,"Arcade",578.30,,,,,,0.00
+"086","547","1211 Sixth Avenue","1211 Avenue of the Americas","West side of Sixth Avenue between West 47th and 48th Streets","1973","5","1000/29","Plaza",21872.00,"Through Block Arcade",5579.27,"Subway Concourse",,,,,0.00
+"085","548","1185 Sixth Avenue","Fleet Boston Financial Tower","Full blockfront on west side Sixth Avenue between  West 46th and 47th Streets","1970","5","999/29","Landscaped Pedestrian Plaza",9991.29,"Special Permit Plaza",6138.08,"Basement Concourse",,,,,0.00
+"088","549","575 Fifth Avenue",,"Southeast corner of East 47th Street and Fifth Avenue","1983","5","1282/64, 65",,,"Covered Pedestrian Space",3442.00,"Public Area",,,,,0.00
+"090","550","245 Park Avenue",,"Full block bounded by Lexington and Park Avenues and East 46th and 47th Streets","1966","5","1301/1","Plaza",19137.80,"Arcade",11198.00,,,,,,0.00
+"062","551","10 East 29th Street","Madison Belvedere","South side of East 29th Street between Madison and Fifth Avenues","2001","5","858/8,10,14,17","Residential Plaza",12699.00,,,,,,,,
+"087","552","1166 Sixth Avenue",,"East side of Sixth Avenue between West 45th and 46th Streets","1972","5","1261/15,56,57,60,61,112,160,1001-1045","Through Block Plaza",17035.00,"Plaza",5759.50,"Arcade",4750.00,,,,0.00
+"081","553","1515 Broadway","One Astor Place","Full blockfront on west side of Broadway between West 44th and 45th Streets","1971","5","1016/36","Pedestrian Thoroughfare",,"Shubert Alley",,,,,,,0.00
+"079","554","1155 Sixth Avenue",,"Full blockfront on west side of Sixth Avenue between West 44th and 45th Streets","1983","5","997/29","Sidewalk Widening",3714.00,"Urban Plaza",4258.00,"Arcade",1460.00,,,,0.00
+"078","555","1133 Sixth Avenue",,"Full blockfront on west side of Sixth Avenue between West 43rd and 44th Streets","1969","5","996/29,6,20","Plaza",5462.00,,,,,,,,0.00
+,"556","1500 Broadway",,"East side of Broadway between West 43rd and 44rd Streets","1972","5","996/1","Arcade",255.00,,,,,,,,0.00
+"077","557","1114 Sixth Avenue","Grace","Southeast corner of Sixth Avenue and West 43rd Streets","1971","5","1258/9","Plaza",19659.59,"Arcade",3710.00,,,,,,0.00
+"076","558","6 East 43rd Street","Emigrant Savings Bank","South side of East 43rd Street between Madison and Fifth Avenues","1968","5","1277/8","Plaza",1524.96,,,,,,,,0.00
+"074","559","120 Park Avenue","Philip Morris","Southwest corner of East 42nd Street and Park Avenue","1982","5","1276/33","Arcade",4081.00,"Covered Pedestrian Space",5102.50,,,,,,
+"072","560","1095 Sixth Avenue","Verizon","Full blockfront on west side of Sixth Avenue between West 41st and 42nd Streets","1971","5","994/33,43","Special Permit Plaza",17034.18,"Subway Concourse",,,,,,,0.00
+"075","561","101 Park Avenue",,"Full blockfront on the east side of Park Avenue between East 40th and 41st Streets","1983","5","1295/1","Urban Plaza",13874.00,"Sidewalk Widening",1722.43,"Arcade",855.00,,,,0.00
+,"101","Madison Avenue",,"Full block bounded by Broadway,  Church Street, Thomas Street and Worth Street","1970","1","152/13",,30905.00,,,,,,,,0.00
+"042","102","101 Barclay Street",,"Full block bounded by Barclay, Greenwich, Murray, and West Streets","1983","1","128/2","Public Lobby",,"Pedestrian Easement",,,,,,,0.00
+"037","103","130 Liberty Street","One Bankers Trust Plaza","Full block bounded by Liberty, Albany, Washington, and Greenwich Streets","1973","1","54/1","Plaza",7623.00,"Arcade",7175.00,"Shopping Arcade, Pedestrian Connection, Elevated Plaza, Pedestrian Bridge, Elevated Shopping Way",,,,,0.00
+"038","104","1 Liberty Plaza","One Liberty Plaza","Full block bounded by Broadway, Church Street, Liberty Street, and Cortlandt Street","1972","1","62/1","Plaza",30361.50,"Special Permit Plaza",25919.33,,,,,,0.00
+"039","105","140 Broadway","HSBC","Full block bounded by Nassau, Broadway, Cedar Street, and Liberty Street","1965","1","48/1","Plaza",15924.30,,,,,,,,0.00
+"040","106","33 Maiden Lane","Two Federal Reserve Plaza","Full blockfront on east side of Nassau Street between Maiden Lane and John Street","1984","1","67/23","Covered Pedestrian Space",4441.00,"Public Pedestrian Circulation Area",935.00,,,,,,0.00
+"024","107","100 William Street",,"Full blockfront on east side of William Street bounded by Platt and John Streets","1973","1","68/36","Covered Pedestrian Space",5028.00,,,,,,,,0.00
+"022","108","200 Water Street",,"Full block bounded by  Water Street, Pearl Street, John Street, and Fulton Street","1971","1","75/1","Plaza",4010.00,"Arcade",3222.00,,,,,,0.00
+"021","109","180 Water Street",,"Full blockfront on south side of John Street between Water and Pearl Streets","1969","1","70/32","Plaza",3949.00,"Arcade",2404.41,,,,,,0.00
+"018","110","88 Pine Street","Wall Street Plaza","Bounded by Front Street, Water Street, and Maiden Lane","1971","1","38/17","Special Permit Plaza",9907.00,,,,,,,,0.00
+"316","1101","175 East 96th Street","Monterey","Northwest corner of Third Avenue and East 96th Street","1992","11","1624/33","Residential Plaza",12720.00,,,,,,,,0.00
+,"1102","1180 Fifth Avenue","Mount Sinai Hospital",,,"11","1604/6",,,,,,,,,,
+"019","111","180 Maiden Lane",,"Full block bounded by South Street, Front Street, Pine Street, and Maiden Lane","1982","1","37/23","Outdoor Public Space",6678.00,"Enclosed Public Space",16364.00,,,,,,0.00
+"016","112","110 Wall Street",,"Northeast corner of Wall and Front Streets","1964","1","37/8","Arcade",3163.00,,,,,,,,0.00
+"017","113","100 Wall Street",,"Bounded by Front, Water, and Wall Streets","1969","1","38/1","Plaza",5933.20,"Arcade",2518.00,,,,,,0.00
+"014","114","95 Wall Street",,"Full blockfront on east side of  Water Street between Gouverneur Lane and Wall Street","1969","1","33/11","Plaza",1963.00,"Arcade",2446.00,,,,,,0.00
+"013","115","111 Wall Street",,"Full block bounded by South Street, Front Street, Gouverneur Lane, and Wall Street","1967","1","35/10","Plaza",10883.00,"Arcade",4589.00,,,,,,0.00
+"011","116","77 Water Street",,"Full block bounded by Front Street, Water Street, Old Slip, and Gouverneur Lane","1970","1","33/1","Plaza",4956.00,"Arcade",10335.00,,,,,,0.00
+"010","117","86 Water Street","10 Hanover Square","East side of Hanover Square between Water and Pearl Streets","1971","1","31/1","Plaza",3416.00,,,,,,,,0.00
+"029","118","40 Broad Street",,"West side of Broad Street between Beaver Street and Exchange Place","1983","1","24/32","Urban Plaza",1583.82,"Arcade",745.00,,,,,,0.00
+"028","119","55 Broad Street",,"Northeast corner of Broad and Beaver Streets","1966","1","25/1","Arcade",4089.00,,,,,,,,0.00
+"032","120","55 Broadway","1 Exchange Plaza","Southwest corner of Broadway and Exchange Alley","1983","1","20/16","Urban Plaza",1714.96,"Arcade",3113.44,"Shopping Arcade",78.70,"Loggia",29.37,,
+"030","121","52 Broadway",,"Southeast corner of Exchange Alley and Broadway","1983","1","22/28","Through Block Arcade Equivalent",4841.00,,,,,,,,0.00
+"033","122","45 Broadway","45 Broadway Atrium","West side of Broadway between Morris Street and Exchange Alley","1983","1","20/9","Arcade",1983.00,"Shopping Arcade",81.68,,,,,,0.00
+"035","123","90 Washington Street",,"Bounded by Washington, West, and Rector Streets","1968","1","17/29","Plaza",8789.00,,,,,,,,0.00
+"008","124","7 Hanover Square",,"South side of Hanover Square between Water and Pearl Streets","1983","1","30/19","Arcade",5349.06,"Through Block Arcade",7467.13,,,,,,0.00
+"009","125","55 Water Street",,"Full block bounded by South Street, Water Street, Vietnam Veterans Plaza, and Old Slip","1970","1","32/1","Plaza",33307.00,"Arcade",10254.00,"Elevated Plaza",42590.00,,,,0.00
+"005","126","125 Broad Street","2 New York Plaza","Northeast corner of Broad and South Streets","1970","1","5/1001-1005","Plaza",21009.00,"Arcade",3656.00,,,,,,0.00
+"006","127","115 Broad Street","4 New York Plaza","Southeast corner of Water and Broad Streets","1968","1","5/10","Plaza",7573.00,"Arcade",3124.00,,,,,,0.00
+"007","128","85 Broad Street","Goldman Sachs","Full blockfront on east side of Broad Street between Pearl and South William Streets","1983","1","29/1,19,59","Urban Plaza",9630.00,"Sidewalk Widening",3600.00,"Arcade",12930.00,"Publicly Accessible Lobby",,,0.00
+"004","129","1 New York Plaza",,"Full block bounded by Whitehall, Water, Broad, and South Streets","1967","1","4/1001-1052","Plaza",40839.00,"Arcade",11180.00,,,,,,0.00
+"003","130","1 State Street","1 State Street Plaza","Full blockfront on west side of Whitehall Street between State and  Pearl Streets","1970","1","9/1","Plaza",8976.80,"Arcade",731.00,,,,,,0.00
+"001","131","17 State Street",,"Southeast corner of State and Pearl Streets","1987","1","9/7,14,23","Urban Plaza",6272.00,"Sidewalk Widening",1715.00,"Arcade",6198.00,"Public Exhibit Space",,,0.00
+"002","132","1 Battery Park Plaza",,"Full block bounded by Whitehall Street, State Street, Pearl Street and Bridge Street","1969","1","9/29","Plaza",16337.00,,,,,,,,0.00
+"023","133","160 Water Street",,"Bounded by Water, Fletcher, and Pearl Streets","1970","1","70/43","Plaza",2962.31,"Arcade",2575.25,,,,,,0.00
+"012","134","32 Old Slip","Financial Square","Full block bounded by Old Slip, Front Street, Gouverneur Lane, and South Street","1987","1","35/1","Urban Plaza",5887.00,"Sidewalk Widening",1406.00,"Arcade",12004.25,,,,0.00
+,"135","199 Water Street","One Seaport Plaza","Between Fulton, John, and Water Streets","1984","1","74/40",,,,,,,,,,
+,"136","7 World Trade Center",,"Full block bounded by  Vesey Street, Washington Street, Barclay Street and West Broadway","1987","1","84/36",,,,,,,,,,
+"044","137","388 Greenwich Street","Salomon Smith Barney","Full block bounded by Greenwich, West, North Moore, and Hubert Streets","1986","1","216/1,6; 186/1,24","Plaza",28252.88,"Public Plaza",23382.50,,,,,,
+"026","138","10 Liberty Street",,"Northeast corner of Cedar Street and William Street","under construction","1","42/22","Urban Plaza",4856.00,,,,,,,,
+,"139","Chase Manhattan Plaza","Chase Manhattan Bank","Between Pine, William, and Liberty Streets","1960","1","44/1",,,,,,,,,,
+"025","140","59 Maiden Lane",,"North corner of Maiden Lane and William Street","1965","1","67/1","Plaza",27700.87,"Arcade",4904.00,,,,,,0.00
+"020","141","175 Water Street",,"Full block bounded by Water, John, Front, and Fletcher Streets","1984","1","71/25","Special Permit Arcade",,"Open Pedestrian Area",,,,,,,0.00
+"034","142","17 Battery Place",,"Full blockfront on north side of Battery Plaza between Western Union International Plaza and West Street","1972","1","15/1","Plaza",11292.37,"Arcade",7280.00,,,,,,0.00
+"036","143","40 Rector Street",,"North side of Rector Street between Washington and West Streets","1971","1","55/2","Plaza",1420.31,,,,,,,,0.00
+"031","144","1 Wall Street","Bank of New York","North side of Exchange Place between New Street and Broadway","1964","1","23/7","Plaza",4618.50,,,,,,,,
+"015","145","75 Wall Street","Barclays Bank","South side of Wall Street between Water and Pearl Streets","1987","1","31/11,15,19,23","Urban Plaza",7017.50,"Arcade",5179.25,"Non-Bonused Public Open Space",,,,,0.00
+"027","146","60 Wall Street","J.P. Morgan","North side of Wall Street between William and Pearl Streets","1989","1","40/3","Arcade",5346.00,"Covered Pedestrian Space",11150.10,,,,,,0.00
+"041","147","55 Church Street","Millenium Hilton Hotel","East side of Church Street between Dey and Fulton Streets","1991","1","80/4","Urban Plaza",5407.70,,,,,,,,0.00
+"095","578","611 Fifth Avenue","Saks Tower","East side of Fifth Avenue between East 49th and 50th Streets","1990","5","1285/1","Building Entrance Recess Area",174.00,"Special Permit Pedestrian Circulation Space",930.00,,,,,,
+"146","579","135 East 57th Street",,"Northwest corner of East 57th Street and Lexington Avenue","1987","5","1312/9,10,15,115,116","Plaza",4820.00,"Open Park Space",2500.00,,,,,,
+"099","581","235 West 48th Street","Ritz","North side of West 48th Street between Broadway and Eighth Avenue","1989","5","1020/5,14,53","Urban Plaza",6690.42,,,,,,,,0.00
+"069","582","420 Fifth Avenue",,"Full blockfront on west side of Fifth Avenue between West 37th and 38th Streets","1989","5","839/1001-1035,55","Urban Plaza",3765.00,,,,,,,,0.00
+"116","583","1325 Sixth Avenue","1325 Avenue of the Americas","North side of  West 53rd Street and south side of West 54th Street between Sixth and Seventh Avenues","1989","5","1006/13,29","Through Block Galleria",6781.49,,,,,,,,
+"139","584","1755 Broadway","Symphony House","Full blockfront on West 56th Street between Broadway and Eighth Avenues","1987","5","1028/1001-1003","Urban Plaza",4953.89,,,,,,,,0.00
+"135","585","146 West 57th Street","Metropolitan Tower","South side of West 57th Street between Sixth and Seventh Avenues","1986","5","1009/1001-1254,14,46,50","Urban Plaza",4375.00,"Through Block Connection",,,,,,,0.00
+"129","586","65 East 55th Street","Park Avenue Tower","North side of East 55th Street between Park and Madison Avenues","1985","5","1291/28,45,47,127","Urban Plaza",6437.17,,,,,,,,0.00
+"089","587","383 Madison Avenue","Bear Stearns","Full block bounded by Madison and Vanderbilt Avenues and East 46th and 47th Streets","under construction","5","1282/21","Through Block Connection",5706.00,"Off-Street Rail Mass Transit Access Improvement",5031.00,"New North End Access to 47th Street Cross Passageway",707.00,"Building Entrance Recess Area",,,
+"111","588","31 West 52nd Street","Deutsche Bank","North side of West 52nd Street between Fifth and Sixth Avenues","1985","5","1268/11","Urban Plaza",7654.00,,,,,,,,0.00
+"105","589","40 East 52nd Street",,"South side of East 52nd Street between Park and Madison Avenues","1986","5","1287/27-31,42,44,143","Urban Plaza",4124.88,,,,,,,,0.00
+"080","590","145 West 44th Street","Millennium Broadway","North side of West 44th Street between Sixth Avenue and Broadway","1990","5","997/10,15","Through Block Connection",3012.00,,,,,,,,
+"082","591","1535 Broadway","Marriott Marquis","West side of Broadway between West 45th and 46th Streets","1985","5","1017/29,48","Shubert Alley Extension",4970.00,"Broadway Plaza",4000.00,"Covered Public Pedestrian Area",24950.00,"Interior Spaces",40300.00,,
+"073","592","489 Fifth Avenue",,"East side of Fifth Avenue between East 41st and 42nd Streets","1972","5","1276/4","Arcade",510.00,,,,,,,,
+"063","593","407 Park Avenue South","Ascot","Northeast corner of East 28th Street and Park Avenue South","1984","5","884/1","Residential Plaza",3686.07,,,,,,,,0.00
+"059","594","45 East 25th Street","Stanford","North side of East 25th Street between Park Avenue South and Madison Avenue","1986","5","855/1001-1127","Plaza",2000.40,,,,,,,,0.00
+"094","595","12 East 49th Street","Tower 49","South side of East 49th Street between Madison and Fifth Avenues","1984","5","1284/6,7,12,13","Urban Plaza",6387.00,"Arcade",3779.00,"Sidewalk Widening",998.00,"Public Access Passageway",,,
+"098","597","745 Seventh Avenue",,"East side of Seventh Avenue between West 49th and 50th Streets","under construction","5","1002/1,5,7,8, part of 11, 61","Public Plaza",15648.00,"Underground Passageway",,,,,,,
+,"598","57 East 57th Street","Four Seasons Hotel","North side of East 57th Street between Madison and Park Avenues",,"5","1293/1001-1003",,,,,,,,,,
+,"599","120 West 45th Street","Tower 45","South side of West 45th Street between Sixth and Seventh Avenues","1986 ?","5","997/41",,,,,,,,,,
+,"601","160 Third Avenue","Gramercy Spire","West side of Third Avenue between East 15th and 16th Streets","1963","6","871/44",,,,,,,,,,
+"153","602","155 East 29th Street","Biltmore Plaza","Northwest corner of East 29th Street and Third Avenue","1981","6","885/42, 48, 49","Plaza",6121.00,,,,,,,,0.00
+"154","603","155 East 31st Street","Windsor Court","North side of East 31st Street between Third and Lexington Avenues","1987","6","887/30","Residential Plaza",6590.68,,,,,,,,0.00
+,"604","157 East 32nd Street","L'Isola","North side of East 32nd Street between Lexington and Third Avenues","1987","6","888/33, 35",,,,,,,,,,
+"159","605","150 East 34th Street","Dumont Plaza","South side of East 34th Street between Third and Lexington  Avenues","1987","6","889/55, 53, 61","Residential Plaza",3516.00,,,,,,,,
+"158","606","166 East 34th Street",,"West side of Third Avenue between East 33rd and 34th Streets","1974","6","889/39","Plaza",4412.40,,,,,,,,0.00
+"161","607","115 East 34th Street","Murray Hill","North side of East 34th Street between Lexington and Park Avenues","1980","6","890/11,17","Plaza",1330.00,,,,,,,,0.00
+"162","608","132 East 35th Street","Murray Hill House","West side of Lexington Avenue between East 34th and 35th Streets","1969","6","890/20","Plaza",3966.99,,,,,,,,
+"167","609","560 Third Avenue","Murray Hill Mews","West side of Third Avenue between East 37th and 38th Streets","1974","6","893/41","Plaza",6594.50,,,,,,,,0.00
+"175","610","600 Third Avenue",,"West side of Third Avenue between East 39th and 40th Streets","1970","6","895/45","Plaza",6582.83,"Arcade",1974.60,,,,,,0.00
+"149","611","201 East 17th Street","Park Towers Medical Plaza","East side of Third Avenue between East 17th and 18th Streets","1973","6","898/1","Plaza",7738.14,,,,,,,,0.00
+"151","612","200 East 24th Street","Crystal House","Southeast corner of East 24th Street and Third Avenue","1972","6","904/50","Plaza",3079.22,,,,,,,,0.00
+,"613","200 East 27th Street","Victoria House","West side of Second Avenue between East 26th and 27th Streets","1965","6","907/56",,,,,,,,,,
+"152","614","240 East 27th Street","Parc East Tower Apartments","Southwest corner of East 27th Street and Second Avenue","1977","6","907/25","Mini-Park",7486.00,"Public Open Area",5532.77,,,,,,0.00
+"156","615","200 East 33rd Street","Laurence Tower","East side of Third Avenue between East 32nd and 33rd Streets","1972","6","913/1","Plaza",6583.83,,,,,,,,0.00
+"168","616","240 East 38th Street",,"South side of 38th Street between Second and Third Avenues","1967","6","918/21","Plaza",9041.70,"Arcade",5358.30,,,,,,0.00
+"174","617","222 East 39th Street","Eastgate Tower Hotel","South side of East 39th Street between Second and Third Avenues","1972","6","919/42","Plaza",4371.45,,,,,,,,0.00
+"194","618","845 First Avenue","Trump World Tower","West side of First Avenue between East 47th and 48th Streets","2003","6","1340/13, 16, 23, 37, 38, 40, 43, 44","Residential Plaza",6694.00,,,,,,,,
+"173","619","250 East 40th Street","Highpoint","Southwest corner of East 40th Street and Second Avenue","1988","6","920/25,26,27,34,35,36,41,1001-1239","Residential Plaza",6427.00,,,,,,,,0.00
+"157","620","300 East 34th Street",,"East side of Second Avenue between East 33rd and 34th Streets","1974","6","939/1","Plaza",6102.64,"Arcade",4332.00,,,,,,0.00
+"263","829","400 East 71st Street","Windsor","Full blockfront on east side of First Avenue between East 70th and 71st Streets","1979","8","1465/1","Plaza",7297.86,,,,,,,,0.00
+"272","830","1385 York Avenue","Stratford","Full blockfront on west side of York Avenue between East 73rd and 74th Streets","1969","8","1468/21","Plaza",12034.00,,,,,,,,0.00
+"270","831","1365 York Avenue","Somerset","Full blockfront on west side of York Avenue between East 72nd and 73rd Streets","1977","8","1467/21","Plaza",11606.97,,,,,,,,0.00
+"280","832","985 Fifth Avenue",,"East side of Fifth Avenue between East 79th and 80th Streets","1969","8","1491/4","Plaza",1386.18,"Arcade",1443.55,,,,,,0.00
+"278","833","900 Park Avenue","Park 900","Northwest corner of Park Avenue and East 79th Street","1973","8","1491/35;1001-1295","Plaza",5076.00,,,,,,,,0.00
+"301","834","50 East 89th Street","Park Regis","South side of East 89th Street between Park and Madison Avenues","1974","8","1500/45","Plaza (Park-Like Open Space)",8395.35,"Landscaped Open Area",,,,,,,0.00
+"306","835","45 East 89th Street",,"East side of Madison Avenue between East 89th and 90th Streets","1969","8","1501/1001-1005","Plaza",9587.00,,,,,,,,0.00
+"307","836","40 East 94th Street","Carnegie Hill Tower","Southeast corner of Madison Avenue and East 94th Street","1983","8","1505/1040-1267","Public Open Area",11040.21,"Access to Public Open Area",3083.00,,,,,,0.00
+"277","837","178 East 80th Street","Kenilworth","South side of East 80th Street between Third and Lexington Avenues","1972","8","1508/38,41,42","Plaza",3655.00,,,,,,,,0.00
+,"838","131 East 81st Street",,"East 81st Street and Lexington Avenue","1982","8",,,,,,,,,,,0.00
+"292","839","171 East 84th Street","Evans Tower","Northwest corner of Third Avenue and East 84th Street","1986","8","1513/1001-1166,1168-1222","Residential Plaza",4249.74,,,,,,,,0.00
+,"840","1524 Third Avenue",,"Full blockfront on west side of Third Avenue between East 85th and 86th Streets","1966","8","1514/39","Plaza",7880.00,,,,,,,,0.00
+"293","841","111 East 85th Street",,"North side of East 85th Street between Lexington and Park Avenues","1971","8","1514/8, 1001-1003","Plaza",5581.19,"Arcade",566.70,,,,,,0.00
+"300","842","1065 Park Avenue","Carlton Park","Northeast corner of Park Avenue and East 87th Street","1974","8","1516/1","Plaza",2320.00,"Arcade",1812.00,,,,,,0.00
+"299","843","115 East 87th Street","Carnegie Towers","North side of East 87th Street between Lexington and Park Avenues","1972","8","1516/9007","Plaza",2633.40,,,,,,,,0.00
+"312","844","182 East 95th Street","Highgate","Southwest corner of Third Avenue and East 95th Street","1980","8","1523/34-40","Residential Plaza",5220.00,,,,,,,,0.00
+,"845","211 East 79th Street",,"North side of East 79th Street between Second and Third Avenues","1966","8","1525/5",,,,,,,,,,0.00
+"285","846","200 East 82nd Street","Wimbledon","Southeast corner of Third Avenue and East 82nd Street","1980","8","1527/41,43-45,47,48,146","Plaza",2536.00,,,,,,,,0.00
+,"847","233 East 86th Street","Park East","North side of East 86th Street between Second and Third Avenues","1983","8","1532/12",,,,,,,,,,
+"297","848","250 East 87th Street","Newbury","Full blockfront on west side of Second Avenue between East 86th and 87th Streets","1970","8","1532/30","Plaza",7745.39,,,,,,,,0.00
+"298","849","201 East 87th Street","Claridge House","Full blockfront on east side of Third Avenue between East 87th and 88th Streets","1975","8","1533/1","Plaza",2698.90,"Park",,,,,,,0.00
+"302","850","200 East 89th Street","Monarch","Southeast corner of Thrid Avenue and East 89th Street","1988","8","1534/1001-1262","Residential Plaza",4868.40,,,,,,,,0.00
+"171","621","330 East 38th Street","Corinthian","West side of First Avenue between East 37th and 38th Streets","1987","6","943/1001-1821","Residential Plaza",27191.50,,,,,,,,0.00
+"170","622","330 East 39th Street","New York Tower","South side of East 39th Street between First and Second Avenues","1980","6","944/10","Plaza",11512.00,,,,,,,,0.00
+"169","623","311 East 38th Street","Whitney","North side of East 38th Street between First and Second Avenues","1984","6","944/6","Residential Plaza",3871.17,,,,,,,,0.00
+"172","624","728 Second Avenue","Churchill","East side of Second Avenue between East 39th and 40th Streets","1966","6","945/1101-1103","Plaza",15898.66,,,,,,,,0.00
+"164","625","630 First Avenue","Manhattan Place","Full blockfront on east side of First Avenue between East 36th and 37th Streets","1984","6","968/1, 22","Residential Plaza",16390.45,,,,,,,,0.00
+"176","626","622 Third Avenue","Grand Central Plaza","Northwest corner of East 40th Street and Third Avenue","1971","6","1295/33","Urban Plaza",7906.00,"Plaza",3913.00,"Arcade",1398.00,"Through Block Arcade",4621.00,"Landscaped Terrace",0.00
+"182","627","140 East 45th Street","Two Grand Central Tower","South side of East 45th Street between Third and Lexington  Avenues","1982","6","1299/27","Urban Plaza",1000.00,"Sidewalk Widening",1000.00,"Arcade",4196.00,,,,0.00
+"200","628","141 East 48th Street","Cosmopolitan","North side of East 48th Street between Third and Lexington Avenues","1985","6","1303/1001-1213, 30","Urban Plaza",2760.83,,,,,,,,0.00
+"199","629","780 Third Avenue",,"West side of Third Avenue between East 48th and 49th Streets","1984","6","1303/33","Urban Plaza",3745.50,"Sidewalk Widening",2882.00,,,,,,0.00
+"201","630","800 Third Avenue",,"West side of Third Avenue between East 49th and 50th Streets","1972","6","1304/33","Plaza",6739.25,"Arcade",1626.67,,,,,,0.00
+"205","631","599 Lexington Avenue",,"East side of Lexington Avenue between East 52nd and 53rd Streets","1985","6","1307/23,29","Open Space and Sidewalk Widenings",,,,,,,,,0.00
+"206","632","153 East 53rd Street","Citigroup Center","Full blockfront on east side of Lexington Avenue between East 53rd and East 54th Streets","1975","6","1308/20","Covered Pedestrian Space",7247.00,"Open Air Concourse",5873.00,"Plaza",2266.00,"Through Block Arcade",4170.00,,0.00
+"216","633","900 Third Avenue",,"West side of Third Avenue between East 54th and 55th Streets","1983","6","1309/32,39,41,43,44,1001-1007","Sidewalk Widening",2300.00,,,,,,,,0.00
+"220","634","950 Third Avenue",,"Southwest corner of Third Avenue and East 57th Street","1971","6","1311/29,40","Plaza",2305.00,,,,,,,,0.00
+"221","635","150 East 58th Street","Architects and Designers","South side of East 58th Street between Third and Lexington Avenues","1969","6","1312/41","Plaza",3600.00,,,,,,,,0.00
+,"636","633 Third Avenue","Continental Conco","East side of Third Avenue between East 40th and 41st Streets","1961","6","1314/9",,,,,,,,,,
+"178","637","245 East 40th Street","Marlborough","Northwest corner of East 40th Street and Second Avenue","1973","6","1314/21","Plaza",7505.30,"Arcade",648.00,,,,,,0.00
+"177","638","235 East 40th Street","Vanderbilt","South side of East 41st Street between Second and Third Avenues","1986","6","1314/1001-1239","Residential Plaza",9003.93,,,,,,,,0.00
+"179","639","212 East 42nd Street","New York Helmsley Hotel","South side of East 42nd Street between Second and Third Avenues","1980","6","1315/44","Urban Plaza",3040.00,,,,,,,,0.00
+"180","640","201 East 42nd Street",,"Northeast corner of East 42nd Street and Third Avenue","1965","6","1316/1","Plaza",1997.00,,,,,,,,0.00
+"183","641","685 Third Avenue",,"East side of Third Avenue between East 43rd and 44th Streets","1975","6","1317/1","Vest Pocket Park",4000.00,"Augmented Sidewalk",570.00,,,,,,0.00
+,"642","234 East 46th Street",,"South side of East 46th Street between Second and Third Avenues","1986","6","1319/34",,,,,,,,,,
+"190","644","240 East 47th Street","Dag Hammarskjold Tower","West side of Second Avenue between East 46th and 47th Streets","1982","6","1320/1001-1250,18,121","Residential Plaza",9638.56,"Non-Bonused Public Open Space",,,,,,,0.00
+"191","645","212 East 47th Street","L'Ecole","South side of East 47th Street between Second and Third Avenues","1979","6","1320/7","Plaza",5316.00,,,,,,,,0.00
+"192","646","747 Third Avenue",,"East side of Third Avenue between East 46th and 47th Streets","1972","6","1320/46","Plaza",4572.58,,,,,,,,0.00
+"193","647","885 Second Avenue","1 Dag Hammarskjold Plaza","West side of Second Avenue between East 47th and 48th Streets","1972","6","1321/22","Plaza",13962.00,"Additional Plaza",,,,,,,
+"197","648","767 Third Avenue",,"Southeast corner of Third Avenue and East 48th Street","1981","6","1321/41, 47","Urban Plaza",3065.50,"Arcade",5067.74,,,,,,0.00
+"198","649","777 Third Avenue",,"East side of Third Avenue between East 48th and 49th Streets","1963","6","1322/1","Plaza",6393.00,"Arcade",5529.00,,,,,,0.00
+"203","650","255 East 49th Street","Sterling Plaza","Northwest corner of East 49th Street and Second Avenue","1985","6","1323/1101-1178","Residential Plaza",4759.39,,,,,,,,0.00
+"202","651","805 Third Avenue","Crystal Pavilion","East side of Third Avenue between East 49th and 50th Streets","1982","6","1323/47","Covered Pedestrian Space",,,,,,,,,0.00
+"204","652","825 Third Avenue",,"Northeast corner of East 50th Street and Third Avenue","1969","6","1324/1","Plaza",3969.00,,,,,,,,0.00
+,"653","219 East 52nd Street","Greenacre Park","North side of East 51 st Street between Second and Third Avenues",,"6",,,,,,,,,,,
+"207","654","875 Third Avenue",,"East side of Third Avenue between East 52nd and 53rd Streets","1980","6","1326/1","Covered Pedestrian Space",6975.00,"Arcade",620.00,"Open Space",,"Public Circulation Space",,,0.00
+"208","655","885 Third Avenue",,"East side of Third Avenue between East 53rd and 54th Streets","1985","6","1327/1","Pedestrian Circulation Space",,,,,,,,,0.00
+"215","656","909 Third Avenue",,"East Side of Third Avenue between East 54th and 55th Streets","1967","6","1328/1","Plaza",4622.08,"Arcade",7020.15,,,,,,0.00
+"214","657","245 East 54th Street","Brevard","West side of Second Avenue between East 54th and 55th Streets","1974","6","1328/17-21","Plaza",3358.30,"Residential Plaza",5755.48,,,,,,0.00
+"217","658","919 Third Avenue",,"East side of Third Avenue between East 55th and 56th Streets","1970","6","1329/1","Plaza",19772.00,,,,,,,,0.00
+"196","659","309 East 48th Street","Libya House","North side of East 48th Street between First and Second Avenues","1984","6","1341/6","Plaza",1942.00,"Arcade",1123.66,,,,,,
+"185","660","3 United Nations Plaza","UNICEF House","South side of East 44th Street between First and Second Avenues","1987","6","1336/31,36,38","Urban Plaza",5025.00,,,,,,,,0.00
+"184","661","303 East 43rd Street","International Plaza","Northeast corner of Second Avenue and East 43rd Street","1984","6","1336/1001-1080","Residential Plaza",3347.33,,,,,,,,0.00
+"187","662","320 East 46th Street","Belmont","South side of East 46th Street between First and Second Avenues","1981","6","1338/40","Residential Plaza",9797.55,,,,,,,,0.00
+"186","663","333 East 45th Street","Lausanne","North side of East 45th Street between First and Second Avenues","1974","6","1338/1001-1050","Plaza",2098.16,"Arcade",2223.11,,,,,,0.00
+"188","664","301 East 45th Street","Delegate","Northeast corner of East 45th Street and Second Avenue","1979","6","1338/1001-1114","Plaza",1460.00,,,,,,,,0.00
+"189","665","866 Second Avenue","Dag Hammarskjold Plaza","East side of Second Avenue between East 46th and 47th Streets","1971","6","1339/1, 2","Arcade",2042.00,,,,,,,,0.00
+"195","666","100 United Nations Plaza/871 United Nations Plaza",,"North side of East 48th Street between First and Second Avenues/ West side of First Avenue between East 48th and 49th Streets","1985","6","1341/23,24,28,31,33-35,40,1001-1142,1401-1560","Residential Plaza",12093.00,,,,,,,,0.00
+"209","667","300 East 54th Street","Connaught Tower","Southeast corner of Second Avenue and East 54th Street","1978","6","1346/1, 101, 49","Plaza",2354.20,"Park",9952.78,,,,,,0.00
+,"668","300 East 56th Street","Bristol","Southeast corner of East 56th Street and Second Avenue","1974","6","1348/14",,,,,,,,,,0.00
+,"669","325 East 56th Street","Bamford","North side of East 56th Street between First and Second Avenues","1980","6","1349/14",,,,,,,,,,
+"219","670","360 East 57th Street","Morrison","Southwest corner of East 57th Street and First Avenue","1972","6","1349/28","Plaza",1500.00,,,,,,,,0.00
+,"671","303 East 57th Street","Excelsior","East side of Second Avenue between East 57th and 58th Streets","1967","6","1350/1",,,,,,,,,,0.00
+"222","672","300 East 59th Street","Landmark","Southeast corner of Second Avenue and East 59th Street","1974","6","1351/1","Plaza",11600.00,"Arcade",1860.00,,,,,,0.00
+"212","673","429 East 52nd Street","Rivercourt","North side of East 52nd Street between FDR Drive and First Avenue","1974","6","1364/34","Plaza",10646.00,,,,,,,,0.00
+"211","674","420 East 54th Street","River Tower","South side of East 54th Street between Sutton Place South and First Avenue","1982","6","1365/8, 9, 16","Residential Plaza",12673.31,,,,,,,,0.00
+"210","675","400 East 54th Street","Revere","Southeast corner of First Avenue and East 54th Street","1972","6","1365/1301-1532","Plaza",10228.11,,,,,,,,0.00
+"213","676","415 East 54th Street","St. James Tower","North side of East 54th Street between Sutton Place South and First Avenue","1983","6","1366/1001-1106","Residential Plaza",6618.00,,,,,,,,0.00
+"218","677","400 East 56th Street","Plaza 400","Southeast corner of First Avenue and East 56th Street","1968","6","1367/1","Plaza",20861.34,"Arcade",1820.39,,,,,,0.00
+"224","678","425 East 58th Street","Sovereign","North side of East 58th Street between Sutton Place South and First Avenue","1973","6","1370/15, 44, 102","Plaza",27701.67,"Park",5021.00,,,,,,0.00
+"160","679","243 Lexington Avenue",,"Northeast corner of Lexington Avenue and East 34th Street","1998","6","890/25,26,27,28,29,30","Residential Plaza",1080.00,,,,,,,,0.00
+,"680","246 East 54th Street","Mondrian","West side of Second Avenue between East 53rd and 54th Streets",,"6",,,,,,,,,,,
+"225","681","418 East 59th Street","Grand Sutton","South side of East 59th Street between Sutton Place South and First Avenue","1988","6","1370/38,41,42","Residential Plaza",2612.50,,,,,,,,0.00
+"163","682","401 East 34th Street","Rivergate","Entire block bounded by FDR Drive, First Avenue, East 34th Street, and East 35th Street","1985","6","966/1","Residential Plaza",23700.00,,,,,,,,0.00
+"165","683","137 East 36th Street","Carlton Regency","Northeast corner of Lexington Avenue and East 36th Street","1966","6","892/25","Plaza",3355.48,,,,,,,,0.00
+"166","684","285 Lexington Avenue","Carlton Regency North","Southeast corner of Lexington Avenue and East 37th Street","1974","6","892/62","Variance Arcade",3342.00,,,,,,,,0.00
+"155","685","200 East 32nd Street","Future","East side of Third Avenue between East 31st and 32nd Streets","1992","6","912/1101-1271","Residential Plaza",5755.35,,,,,,,,
+"150","686","353 East 17th Street","Gilman Hall","Northwest corner of First Avenue and East 17th Street","1969","6","923/31","Plaza",3080.00,,,,,,,,
+"223","687","410 East 58th Street","New Yorker East","South side of East 58th Street between Sutton Place South and First Avenue","1974","6","1369/42","Plaza",2709.30,,,,,,,,
+"181","688","425 Lexington Avenue",,"Full blockfront on east side of Lexington Avenue between East 43rd and 44th Streets","1987","6","1298/23","Urban Plaza",4548.12,,,,,,,,
+,"701","275 West 96th Street","Columbia","Northwest corner of Broadway and West 96th Street","1983","7","1868/1001-1311",,,,,,,,,,
+,"702","700 Columbus Avenue","Jefferson Towers","West side of Columbus Avenue between West 94th and 95th Streets","1968","7","1225/29",,,,,,,,,,0.00
+,"703","70 West 95th Street",,"Southeast corner of West 95th Street and Columbus Avenue","1968","7","1208/1",,,,,,,,,,
+,"704","424 West End Avenue","West River House","Southeast corner of West 81st Street and West End Avenue",,"7","1228/61",,,,,,,,,,
+"243","705","200 West 79th Street","Gloucester","West side of Amsterdam Avenue between West 78th and 79th Streets","1975","7","1170/1001-1010","Plaza",5355.00,,,,,,,,0.00
+"242","706","201 West 70th Street","One Sherman Square","Full blockfront on west side of Broadway between West 70th and 71st Streets","1971","7","1162/29","Plaza",5990.90,,,,,,,,0.00
+"241","707","2025 Broadway","Nevada Towers","Block bounded by Broadway, Amsterdam Avenue, West 70th Street, and West 71st Street","1974","7","1141/1101,1102","Plaza",5008.00,,,,,,,,0.00
+,"708","15 West 72nd Street","Mayfair","North side of West 72nd Street between Columbus Avenue and Central Park West","1964","7","1125/24",,,,,,,,,,
+"237","709","80 Central Park West",,"Northwest corner of Central Park West and West 68th Street","1967","7","1121/29","Plaza",3980.00,"Arcade",2264.00,,,,,,0.00
+,"710","45 West 67th Street",,"Northeast corner of West 67th Street and Columbus Avenue","1983","7","1120/1101-1007",,,,,,,,,,
+"238","711","130 West 67th Street","Toulaine","South side of West 67th Street between Broadway and Amsterdam Avenue","1975","7","1138/53","Plaza",2280.93,"Arcade",3440.10,,,,,,0.00
+"235","712","2 Lincoln Square","Two Lincoln Square","East side of Columbus Avenue between West 65th and 66th Streets","1974","7","1118/1","Special Permit Plaza",580.00,"Covered Plaza",6358.00,"Mandatory Arcade",2757.00,,,,0.00
+"236","713","10 West 66th Street",,"South side of West 66th Street between Central Park West and Columbus Avenue","1969","7","1118/22","Plaza",9387.32,"Arcade",530.41,,,,,,0.00
+"233","714","1 Lincoln Plaza","One Lincoln Plaza","Full blockfront on east side of Broadway between West 63rd and 64th Streets","1971","7","1116/1001-1662","Plaza",17351.00,"Arcade",3309.30,,,,,,0.00
+"232","715","1886 Broadway","30 Lincoln Plaza","East side of Broadway between West 62nd and 63rd Streets","1978","7","1115/17","Landscaped Plaza",14385.17,"Mandatory Arcade",3492.61,"Covered Plaza",2386.25,"Special Permit Arcade",1000.00,,0.00
+"231","716","61 West 62nd Street","One Harkness Plaza/Harmony Atrium","North side of West 62nd Street between Broadway and Columbus Avenue","1979","7","1115/1,7","Covered Plaza",6906.00,,,,,,,,0.00
+"230","717","44 West 62nd Street","Lincoln Plaza Towers","Southeast corner of Columbus Avenue and West 62nd Street","1973","7","1114/61","Plaza",6802.40,,,,,,,,0.00
+,"718","1865 Broadway",,"Northwest corner of Broadway and West 61st Street","1966","7","1114/9",,,,,,,,,,0.00
+"227","719","45 West 60th Street","Regent","Northeast corner of Columbus Avenue and West 60th Street","1982","7","1113/1","Residential Plaza",9256.43,,,,,,,,0.00
+"228","720","30 West 61st Street","Beaumont","South side of West 61st Street between Broadway and Columbus Avenue","1983","7","1113/1001-1167","Residential Plaza",6100.83,"Arcade",2490.32,"Additional Residential Plaza",3280.00,,,,0.00
+"229","721","One Central Park West","Trump International Hotel and Tower","Entire block bounded by Broadway, Central Park West, and West 61st Street","1970/1996","7","1113/29","Plaza",17856.00,,,,,,,,0.00
+"239","723","145 West 67th Street","Tower 67","Full blockfront on east side of Amsterdam Avenue between West 67th and 68th Streets","1985","7","1139/1, 8, 57, 107","Residential Plaza",14460.50,,,,,,,,0.00
+"240","724","1991 Broadway","Bel Canto","West side of Broadway between West 67th and 68th Streets","1985","7","1139/51,17","Covered Plaza",1659.50,,,,,,,,0.00
+,"725","161 West 61st Street","Alfred","Northeast corner of Amsterdam Avenue and West 61st Street (Alvin Ailey Place)","1987","7","1132/30",,,,,,,,,,0.00
+"226","726","200 West 60th Street","Concerto","Full blockfront on west side of Amsterdam Avenue between West 59th and 60th Streets","1991","7","1151/1001-1003","Public Open Space",7320.00,,,,,,,,
+"234","727","75  West End Avenue","West End Towers","Full blockfronts on west side of West End Avenue between West 61st and 63rd Streets","1993","7","1171/63","Public Open Spaces",51497.00,,,,,,,,
+,"728","561-575 Amsterdam Avenue",,,,"7","1218/1",,,,,,,,,,
+"244","801","118 East 60th Street","Plaza Tower","South side of East 60th Street between Lexington and Park Avenues","1965","8","1394/7","Plaza",6276.00,,,,,,,,0.00
+"251","802","167 East 61st Street","Trump Plaza","Full blockfront of west side of Third Avenue between East 61st and 62nd Streets","1983","8","1396/32,33","Residential Plaza",7319.54,,,,,,,,0.00
+"279","803","980 Fifth Avenue",,"Northeast corner of Fifth Avenue and East 79th Street","1967","8","1491/1","Plaza",2879.50,,,,,,,,
+"252","804","188 East 64th Street","Royale","Full blockfront on west side of Third Avenue between East 63rd and 64th Streets","1987","8","1398/1001-1207","Residential Plaza",6667.00,,,,,,,,0.00
+"255","805","160 East 65th Street","Phoenix","Full blcokfront on west side of Third Avenue between East 64th and 65th Streets","1969","8","1399/33","Plaza",6814.74,,,,,,,,0.00
+"261","806","733 Park Avenue",,"Southeast corner of Park Avenue and East 71st Street","1970","8","1405/72","Plaza",2070.57,"Arcade",1760.39,,,,,,0.00
+,"807","1230 Third Avenue","Tower East","West side of Third Avenue between East 71st and 72nd Streets","1962","8","1406/41",,,,,,,,,,
+"246","808","200 East 61st Street","Savoy","Full blockfront on east side of Third Avenue between East 60th and 61st Streets","1985","8","1415/1001-1183,1185-1232","Residential Plaza",5190.76,,,,,,,,0.00
+"250","809","200 East 62nd Street","Wellington Estates","Full blockfront on east side of Third Avenue between East 61st and 62nd Streets","1966","8","1416/2","Plaza",6250.00,"Arcade",504.00,,,,,,0.00
+"253","810","200 East 64th Street","Carlton Towers","Southeast corner of Third Avenue and East 64th Street","1969","8","1418/45","Plaza",4604.00,,,,,,,,0.00
+"248","8100","401 East 60th Street","Bridge Tower Place","Full blockfront on east side of First Avenue between East 60th and 61st Streets","2001","8","1455/1, 4, 6","Residential Plaza",6736.46,,,,,,,,
+"256","811","220 East 65th Street","Concorde","South side of East 65th Street between Second and Third Avenues","1979","8","1419/1501-1791","Plaza",1325.00,,,,,,,,0.00
+"254","812","200 East 65th Street","Bristol","Full blockfront on east side of Third Avenue between East 64th and 65th Streets","1987","8","1419/1101-1408","Residential Plaza",8368.50,,,,,,,,
+"258","813","265 East 66th Street",,"Full blockfront on west side of Second Avenue between East 66th and 67th Streets","1975","8","1421/21","Plaza",7531.16,,,,,,,,0.00
+"259","814","254 East 68th Street",,"Full blockfront on west side of Second Avenue between East 67th and 68th Streets","1973","8","1422/21","Plaza",8153.10,,,,,,,,0.00
+"313","815","205 East 95th Street","Normandie Court","East side of Third Avenue between East 95th and 96th Streets","1985","8","1541/1","Residential Plaza",8743.00,,,,,,,,
+"267","816","220 East 72nd Street",,"South side of East 72nd Street between Second and Third Avenues","1974","8","1426/9035","Plaza",1740.00,,,,,,,,0.00
+,"817","200 East 72nd Street",,"East 72nd Street and Third Avenue","1979","8","1426/44",,,,,,,,,,0.00
+,"818","203 East 72nd Street","Bayard House","Southeast corner of Third Avenue and East 73rd Street","1966","8","1427/1",,,,,,,,,,0.00
+"249","819","300 East 62nd Street","Paladin","Southeast corner of Second Avenue and East 62nd Street","1985","8","1436/1001-1111","Residential Plaza",3143.00,,,,,,,,0.00
+,"820","340 East 64th Street","Saint Tropez","West side of First Avenue between East 63rd and 64th Streets","1965","8","1438/201-3504",,,,,,,,,,
+"257","821","304 East 65th Street","Rio","Southeast corner of Second Avenue and East 65th Street","1987","8","1439/4,5,51,148 (1001-1139)","Residential Plaza",4054.00,,,,,,,,0.00
+"269","822","353 East 72nd Street","Fontaine","North side of East 72nd Street between First and Second Avenues","1975","8","1447/19, 20, 21","Plaza",2411.00,"Arcade",786.00,,,,,,0.00
+"268","823","300 East 74th Street",,"Southeast corner of Second Avenue and East 74th Street","1967","8","1448/3","Plaza",6554.00,,,,,,,,0.00
+,"824","52-54 East End Avenue",,"Southwest Corner of East End Avenue and East 82nd Street",,"8","1578/1001-1083",,,,,,,,,,
+"274","825","300 East 75th Street","Fairmont","Southeast corner of Second Avenue and East 75th Street","1979","8","1449/3","Plaza",8556.48,"Arcade",1560.00,"Landscaped Park",,,,,0.00
+,"826","425 East 61st Street","Otic Professional","North side of East 61st Street between York and First Avenues","1973","8","1456/17",,,,,,,,,,
+"264","827","400 East 70th Street","Kingsley","Southeast corner of First Avenue and East 70th Street","1983","8","1464/1001-1201","Residential Plaza",4739.00,,,,,,,,0.00
+,"828","435 East 70th Street",,"West side of York Avenue between East 70th and 71st Streets","1967","8","1465/21","Plaza",8164.00,,,,,,,,0.00
+"305","851","200 East 90th Street",,"Southeast corner of Third Avenue and East 90th Street","1974","8","1535/3","Plaza",5937.71,,,,,,,,0.00
+"276","853","301 East 79th Street","Continental Towers","Northeast corner of Second Avenue and East 79th Street","1977","8","1542/1101-1545,12,49","Plaza",8810.20,"Plaza-Like Park",3304.25,,,,,,0.00
+"281","854","345 East 80th Street","East Winds","Full blockfront on west side of First Avenue between East 80th and 81st Streets","1973","8","1543/1001-1335","Plaza",7070.00,,,,,,,,0.00
+"286","855","303 East 83rd Street","Camargue","Northeast corner of Second Avenue and East 83rd Street","1977","8","1546/1, 50","Plaza",6518.10,,,,,,,,0.00
+"287","856","353 East 83rd Street",,"Northwest corner of First Avenue and East 83rd Street","1968","8","1546/23","Plaza",5640.62,,,,,,,,
+"290","857","351 East 84th Street","Adams Tower","Full blockfront on west side of First Avenue between East 84th and 85th Streets","1969","8","1547/23","Plaza",6694.95,,,,,,,,0.00
+"291","858","300 East 85th Street","America","Southeast corner of Second Avenue and East 85th Street","1987","8","1547/ 2, 3, 49, 104","Residential Plaza",5300.00,,,,,,,,0.00
+"296","859","301 East 87th Street","Corniche","Northeast corner of Second Avenue and East 87th Street","1974","8","1550/1","Plaza",3357.00,,,,,,,,0.00
+"309","860","340 East 93rd Street","Plymouth Tower","Full blockfront on west side of First Avenue between East 92nd and 93rd Streets","1977","8","1555/23","Residential Plaza",7323.83,,,,,,,,0.00
+"310","861","345 East 93rd Street","Mill Rock Plaza","Full blockfront on west side of First Avenue between East 93rd and 94th Streets","1975","8","1556/23","Plaza",10507.00,"Special Permit Arcade",1900.00,,,,,,0.00
+"308","862","300 East 93rd Street","Waterford","Southeast corner of Second Avenue and East 93rd Street","1987","8","1555/3 ,4, 5, 1101-1323","Residential Plaza",4962.00,,,,,,,,0.00
+,"863","445 East 80th Street",,"Northwest corner of York Avenue and East 80th Street","1966","8","1560/21",,,,,,,,,,
+"282","864","401 East 80th Street",,"Full blockfront on east side of First Avenue between East 80th and 81st Streets","1980","8","1560/1,44","Residential Plaza",5689.91,,,,,,,,0.00
+,"865","338-352 East 82nd Street",,,,"8","1544/30",,,,,,,,,,
+"289","866","401 East 84th Street","Dunhill","Northeast corner of First Avenue and East 84th Street","1987","8","1564/5, 1101-1189","Open Plaza",846.00,,,,,,,,0.00
+,"867","1646 First Avenue",,"East side of First Avenue between East 85th and 86th Streets","1968","8","1565/1",,9364.00,,,,,,,,0.00
+"294","868","444 East 86th Street",,"South side of East 86th Street between York and First Avenues","1974","8","1565/17,29","Plaza",7610.00,,,,,,,,0.00
+"303","869","1675 York Avenue","Andover","Full blockfront on west side of York Avenue between East 88th and 89th Streets","1974","8","1568/21","Plaza",11754.00,,,,,,,,0.00
+"304","870","1725 York Avenue","East River Towers","Full blockfront on west side of York Avenue between East 89th and 90th Streets","1970","8","1569/16","Plaza",7862.84,,,,,,,,0.00
+"275","871","515 East 79th Street","Asten House","North side of East 79th Street between East End and York Avenues","1982","8","1576/14","Residential Plaza",5965.62,,,,,,,,0.00
+"283","872","1520 York Avenue","Caldwell","Northeast corner of York Avenue and East 80th Street","1972","8","1577/1","Plaza",7385.52,,,,,,,,0.00
+"284","873","60 East End Avenue",,"Northwest corner of East End Avenue and East 82nd Street","1972","8","1579/19, 21, 22-26, 32, 34","Plaza",7273.67,,,,,,,,0.00
+,"874","108 East 96th Street",,"South side of East 96th Street between Park and Lexington Avenues",,"8","1524/65",,,,,,,,,,0.00
+"247","875","303 East 60th Street","Evansview","North side of East 60th Street between First and Second Avenues","1987","8","1435/51,52, 1001-1058","Residential Plaza",4316.00,,,,,,,,0.00
+"265","876","524 East 72nd Street","Belaire","South side of East 72nd Street between FDR Drive and York Avenue","1988","8","1483/1001-1147","Residential Plaza",8412.66,,,,,,,,0.00
+"295","878","455 East 86th Street","Channel Club","Northwest corner of York Avenue and East 86th Street","1986","8","1566/22, 27, 28, 29, 126, 128, 1001-1150","Residential Plaza",1982.50,,,,,,,,0.00
+"271","880","525 East 72nd Street","One East River Place","North side of East 72nd Street between FDR Drive and York Avenue","1988","8","1484/19,22,23,24, parts of 16,26","Public Park",4904.00,,,,,,,,0.00
+,"881","400 East 79th Street","Hampton House","Southeast corner of First Avenue and East 79th Street","1986","8","1473/1,3,4,5,46,47",,,,,,,,,,0.00
+"262","882","211 East 70th Street",,"North side of East 70th Street between Second and Third Avenues","1975","8","1425/5","Plaza",2010.00,"Park-Like Open Space",31196.00,"Variance Arcade",4664.00,,,,0.00
+,"883","206 East 94th Street","Carnegie Park Apartments","North side of East 94th Street between Second and Third Avenues","1986","8","1539/1,49","Open Space",,,,,,,,,
+"311","885","301 East 94th Street","Marmara Manhattan","Northeast corner of Second Avenue and East 94th Street","1989","8","1557/1,4,104","Residential Plaza",3310.54,,,,,,,,0.00
+"260","886","200 East 69th Street","Trump Palace","Full blockfront on east side of Third Avenue between East 68th and 69th Streets","1991","8","1423/1001-1416","Residential Plaza",8424.85,,,,,,,,0.00
+,"888","201 East 86th Street",,"Northeast corner of Third Avenue and East 86th Street",,"8",,,,,,,,,,,
+"314","889","235 East 95th Street","Normandie Court","North side of East 95th Street between First and Second Avenues","1986","8","1541/21","Residential Plaza",19863.00,,,,,,,,
+,"890","1601 Third Avenue","Ruppert Tower","East side of Third Avenue between East 90th and 91st Streets","1974","8","1536/1",,,,,,,,,,0.00
+,"891","330 East 80th Street",,"South side of East 80th Street between First and Second Avenues","1961","8","1542/19",,,,,,,,,,
+,"892","1540 York Avenue","York Hill","East side of York Avenue between East 80th and 81st Streets","1963","8","1578/1",,,,,,,,,,
+"315","893","1850 Second Avenue",,"East side of Second Avenue between East 95th and 96th Streets","1987","8","1558/85","Arcade",1500.00,,,,,,,,0.00
+"288","894","400 East 84th Street","Strathmore","Southeast corner of First Avenue and East 84th Street","1989","8","1563/1-4, 104, 147","Residential Plaza",7836.95,,,,,,,,0.00
+"273","897","330 East 75th Street","Saratoga","Southwest corner of First Avenue and East 75th Street","1985","8","1449/26, 1001-2000","Residential Plaza",4862.75,,,,,,,,0.00
+"266","898","422 East 72nd Street","Oxford","South side of East 72nd Street between First and York Avenues","1990","8","1466/29, 31, 1001-1208","Residential Plaza",4757.64,,,,,,,,
+"245","899","750 Lexington Avenue","International Plaza","Full blockfront on west side of Lexington Avenue between East 59th and 60th Streets","1986","8","1394/13","Plaza",7597.99,,,,,,,,
+"319","B201","130 Livingston Street","Livingston Plaza","Full block bounded by Livingston Street, Schermerhorn Street, Smith Street, and Boerem Place","1991","B2","163/1,36","Plaza",19201.00,,,,,,,,
+"318","B202","350 Jay Street","Renaissance Plaza","West side of Jay Street between Willoughby Street and Tech Place","1998","B2","140/ 27,10","Plaza",24273.00,"Plaza Connected Open Space",5802.00,"Open Space Area",,,,,
+"317","B203","MetroTech Center",,"Bounded by Jay Street, Tech Place, Bridge Street, Tillary Street, Flatbush Avenue, Duffield Street, and Willoughby Street","1990","B2","142, 143, 147, 148, 2047, 2059","Commons and Public Areas",,,,,,,,,
+,"B204","1 Pierrepont Plaza","Morgan Stanley",,,"B2","239/1",,,,,,,,,,
+,"B205","Atlantic Terminal","Atlantic Terminal",,"under construction","B2",,"Commercial Park-Like Open Space",,"Open Space Areas",,,,,,,
+,"B206","111 Livingston Street",,"Northwest corner of Livingston Street and Boerem Place","1969","B2","266/1","Plaza",9920.00,,,,,,,,
+"320","B207","230 Ashland Place","Clarett Brooklyn","Ashland Place and Fulton Street","2007","BK 2","2095/53,57,59","Residential Plaza",4145.00,,,,,,,,
+"320","Q201","1 Court Square","Citicorp at Court Square","Block bounded by Jackson Avenue, 45th Avenue, 23rd Street, and 44th Drive","1989","Q2","79/18,22,30","Landscaped Public Open Space",23172.00,"Pedestrian Circulation Space",4236.00,,,,,,
