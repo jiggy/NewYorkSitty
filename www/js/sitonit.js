@@ -100,7 +100,7 @@ sitonit.map = function() { // main class for the map of POPs
 			markers.push(marker);
 		},
 		findByAddress: function(address, callback) {
-			alert("Finding address " + address);
+			console.log("Finding address " + address);
 			if (address) {
 				geocoder.geocode( { 'address': address}, function(results, status) {
 					console.log("Geocode status: " + status);
