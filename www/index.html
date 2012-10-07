@@ -24,6 +24,7 @@ $(document).ready(function() {
 	};
 
 	function clicked(e) {
+	alert("click!");
 		console.log("Mapping result");
 		var address = $("input[name=address]").attr("value")
 		if (address != '') {
@@ -35,7 +36,8 @@ $(document).ready(function() {
 	}
 	
 	$("#mapit").bind("touchstart", clicked);
-	$("#mapit").click(clicked);
+	$("#findit").bind("touchstart", clicked);
+	//$("#mapit").click(clicked);
 });	
 </script>
 </head>
@@ -44,6 +46,7 @@ $(document).ready(function() {
 <label for="address">Enter address:</label>
 <input type="text" name="address" placeholder="Street address or blank for current location" size="50" maxlength="1024" />
 <input type="submit" id="mapit" value="Find a seat" />
+<a href="#" id="findit">Find a seat</a>
 </form>
 <div id="map_canvas"></div>
 <div class="info-window">
