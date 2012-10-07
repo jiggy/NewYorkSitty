@@ -79,13 +79,11 @@ sitonit.map = function() { // main class for the map of POPs
 				map: map,
 				position: new google.maps.LatLng(coords.lat, coords.lng),
 				title:(pop.name ? pop.name + " " : "") + pop.address,
-				icon: '/img/poplogo_icon_16X16.png'
+				icon: 'img/poplogo_icon_16X16.png'
 			});
 			var node = $(".info-window").clone();
 			if (pop.name) {
 				node.find(".name").text(pop.name);
-			} else {
-				//node.find(".name").hide();
 			}
 			if (pop.address) {
 				node.find(".address").text(pop.address);
@@ -110,7 +108,11 @@ sitonit.map = function() { // main class for the map of POPs
 				});
 			} else {
 				navigator.geolocation.getCurrentPosition(function(position) {
+					console.log(position);
 					findClosest(new google.maps.LatLng(position.coords.latitude, position.coords.longitude), callback);
+				},
+				function(error) {
+					console.log("Failed to retrieve current position");
 				});
 			}
 		},
