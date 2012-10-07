@@ -108,6 +108,7 @@ sitonit.map = function() { // main class for the map of POPs
 					findClosest(coords, callback);
 				});
 			} else {
+				console.log("Getting phone's position");
 				navigator.geolocation.getCurrentPosition(function(position) {
 					console.log("Position: " + position);
 					findClosest(new google.maps.LatLng(position.coords.latitude, position.coords.longitude), callback);

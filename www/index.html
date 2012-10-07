@@ -24,19 +24,19 @@ $(document).ready(function() {
 	};
 
 	function clicked(e) {
-	alert("click!");
 		console.log("Mapping result");
 		var address = $("input[name=address]").attr("value")
 		if (address != '') {
 			address += " New York, NY";
 		}
+		console.log("Finding address " + address);
 		map.findByAddress(address, gotClosest);
 
 		return false;
 	}
 	
 	$("#mapit").bind("touchstart", clicked);
-	$("#findit").bind("touchstart", clicked);
+//	$("#findit").bind("touchstart", clicked);
 	//$("#mapit").click(clicked);
 });	
 </script>
@@ -46,7 +46,7 @@ $(document).ready(function() {
 <label for="address">Enter address:</label>
 <input type="text" name="address" placeholder="Street address or blank for current location" size="50" maxlength="1024" />
 <input type="submit" id="mapit" value="Find a seat" />
-<a href="#" id="findit">Find a seat</a>
+
 </form>
 <div id="map_canvas"></div>
 <div class="info-window">
