@@ -23,7 +23,7 @@ $(document).ready(function() {
 		map.setBoundsByMarkers();
 	};
 
-	$("#mapit").click(function(e) {
+	function clicked(e) {
 		console.log("Mapping result");
 		var address = $("input[name=address]").attr("value")
 		if (address != '') {
@@ -32,7 +32,10 @@ $(document).ready(function() {
 		map.findByAddress(address, gotClosest);
 
 		return false;
-	});
+	}
+	
+	$("#mapit").bind("touchstart", clicked);
+	$("#mapit").click(clicked);
 });	
 </script>
 </head>
