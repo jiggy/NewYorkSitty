@@ -78,12 +78,23 @@ sitonit.map = function() { // main class for the map of POPs
 			var marker = new google.maps.Marker({
 				map: map,
 				position: new google.maps.LatLng(coords.lat, coords.lng),
-				title:(pop.name ? pop.name + " " : "") + pop.address
+				title:(pop.name ? pop.name + " " : "") + pop.address,
+				icon: '/img/poplogo_icon_16X16.png'
 			});
+			var node = $(".info-window").clone();
+			if (pop.name) {
+				node.find(".name").text(pop.name);
+			} else {
+				//node.find(".name").hide();
+			}
+			if (pop.address) {
+				node.find(".address").text(pop.address);
+			}
+			if (pop.location) {
+				node.find(".description").text(pop.location);
+			}
 			marker.info = new google.maps.InfoWindow({
-				  content: (pop.name ? "<h4>" + pop.name + "</h4>" : "") +
-				  	pop.address + "<br/>" + 
-				  	(pop.location ? pop.location : "")
+				  content: node.show().get(0)
 				});
 			google.maps.event.addListener(marker, 'click', function() {
 					openWindow(marker);
