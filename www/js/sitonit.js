@@ -100,15 +100,16 @@ sitonit.map = function() { // main class for the map of POPs
 			markers.push(marker);
 		},
 		findByAddress: function(address, callback) {
+			alert("Finding address " + address);
 			if (address) {
 				geocoder.geocode( { 'address': address}, function(results, status) {
-					console.log("Status: " + status);
+					console.log("Geocode status: " + status);
 					var coords = results[0].geometry.location; // LatLng object
 					findClosest(coords, callback);
 				});
 			} else {
 				navigator.geolocation.getCurrentPosition(function(position) {
-					console.log(position);
+					console.log("Position: " + position);
 					findClosest(new google.maps.LatLng(position.coords.latitude, position.coords.longitude), callback);
 				},
 				function(error) {
