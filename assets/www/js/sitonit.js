@@ -1,5 +1,8 @@
 var sitonit = {}; // namespace
 sitonit.map = function() { // main class for the map of POPs
+	
+	var defaultPosition = new google.maps.LatLng(40.730218,-73.973351);
+	
 	var map; // reference to google.maps.Map object
 	var geocoder = new google.maps.Geocoder();
 	var markers = []; // store list of placed markers because Google API doesn't do it for you
@@ -64,7 +67,7 @@ sitonit.map = function() { // main class for the map of POPs
 		initMap: function(div) {
 			console.log("Adding map to " + div);
 		    var mapOptions = {
-		      center: new google.maps.LatLng(40.730218,-73.973351),
+		      center: defaultPosition,
 		      zoom: 13,
 		      mapTypeId: google.maps.MapTypeId.ROADMAP
 		    };
@@ -114,8 +117,9 @@ sitonit.map = function() { // main class for the map of POPs
 					findClosest(new google.maps.LatLng(position.coords.latitude, position.coords.longitude), callback);
 				},
 				function(error) {
-					console.log("Failed to retrieve current position");
-				});
+					console.log("Failed to retrieve current position " + error.message +
+							", status:" + error.status);
+				},{enableHighAccuracy:true});
 			}
 		},
 		setBoundsByMarkers: function() {
