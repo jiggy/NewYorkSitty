@@ -106,7 +106,7 @@
 "074","559","120 Park Avenue","Philip Morris","Southwest corner of East 42nd Street and Park Avenue","1982","5","1276/33","Arcade",4081.00,"Covered Pedestrian Space",5102.50,,,,,,
 "072","560","1095 Sixth Avenue","Verizon","Full blockfront on west side of Sixth Avenue between West 41st and 42nd Streets","1971","5","994/33,43","Special Permit Plaza",17034.18,"Subway Concourse",,,,,,,0.00
 "075","561","101 Park Avenue",,"Full blockfront on the east side of Park Avenue between East 40th and 41st Streets","1983","5","1295/1","Urban Plaza",13874.00,"Sidewalk Widening",1722.43,"Arcade",855.00,,,,0.00
-,"101","Madison Avenue",,"Full block bounded by Broadway,  Church Street, Thomas Street and Worth Street","1970","1","152/13",,30905.00,,,,,,,,0.00
+,"101","321 Broadway",,"Full block bounded by Broadway,  Church Street, Thomas Street and Worth Street","1970","1","152/13",,30905.00,,,,,,,,0.00
 "042","102","101 Barclay Street",,"Full block bounded by Barclay, Greenwich, Murray, and West Streets","1983","1","128/2","Public Lobby",,"Pedestrian Easement",,,,,,,0.00
 "037","103","130 Liberty Street","One Bankers Trust Plaza","Full block bounded by Liberty, Albany, Washington, and Greenwich Streets","1973","1","54/1","Plaza",7623.00,"Arcade",7175.00,"Shopping Arcade, Pedestrian Connection, Elevated Plaza, Pedestrian Bridge, Elevated Shopping Way",,,,,0.00
 "038","104","1 Liberty Plaza","One Liberty Plaza","Full block bounded by Broadway, Church Street, Liberty Street, and Cortlandt Street","1972","1","62/1","Plaza",30361.50,"Special Permit Plaza",25919.33,,,,,,0.00

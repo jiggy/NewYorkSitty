@@ -40,7 +40,7 @@ sitonit.map = function() { // main class for the map of POPs
 		var limit = 10;
 		var closest = [];
 		$(pops).each(function(i, pop) {
-			var popCoords = pop.geodata.results[0].geometry.location; // {lat:,lng:}
+			var popCoords = pop.geodata.geometry.location; // {lat:,lng:}
 			console.log("Computing distance to " + pop.address + "[" + popCoords.lat + "," + popCoords.lng + "]");
 			var dist = computeDistance(center, new google.maps.LatLng(popCoords.lat, popCoords.lng));
 			console.log("Distance is " + dist);
@@ -77,7 +77,7 @@ sitonit.map = function() { // main class for the map of POPs
 		},
 		addPop: function(pop) {
 			if (!map) return;
-			var coords = pop.geodata.results[0].geometry.location;
+			var coords = pop.geodata.geometry.location;
 			var marker = new google.maps.Marker({
 				map: map,
 				position: new google.maps.LatLng(coords.lat, coords.lng),
