@@ -18,7 +18,7 @@ $(document).ready(function() {
     console.info("map:",map);
 
     google.maps.event.addListener(map.map, 'dragend', function(event) {
-    	alert("done dragging!");
+    	// redo search within bounds
     });
  
 	var gotClosest = function(closest) {
@@ -36,9 +36,21 @@ $(document).ready(function() {
 			address += " New York, NY";
 		}
 		console.log("Finding address " + address);
-		map.findByAddress(address, gotClosest);
+		map.findByAddress(address, gotClosest, addSuggestions);
 
 		return false;
+	}
+	
+	function addSuggestions(results) {
+		for (var i = 0; i < results.length; i++) {
+			$("#didjamean").append($("<li>Or did you mean <a href=\"" + results[i].formatted_address + "\">" + results[i].formatted_address + "</a></li>"));
+		}
+		$("#didjamean li a").click(function() {
+			console.info("pick address", this);
+			$("#didjamean").empty();
+			map.findByAddress(this.innerText, gotClosest, addSuggestions);
+			return false;
+		});
 	}
 	
 	$("#mapit").bind("touchstart", clicked);

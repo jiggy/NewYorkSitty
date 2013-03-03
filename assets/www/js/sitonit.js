@@ -102,16 +102,14 @@ sitonit.map = function() { // main class for the map of POPs
 				});
 			markers.push(marker);
 		},
-		findByAddress: function(address, callback) {
+		findByAddress: function(address, callback, resultsCallback) {
 			console.info("Finding address " + address);
 			if (address) {
 				geocoder.geocode( { 'address': address}, function(results, status) {
 					console.debug("Geocode status: ", status);
 					console.debug("Results, ", results);
 					if (results.length > 1) {
-						for (var i = 0; i < results.length; i++) {
-							$("#didjamean").append($("<li>Or did you mean " + results[i].formatted_address + "</li>"));
-						}
+						resultsCallback(results);
 					}
 					var coords = results[0].geometry.location; // LatLng object
 					findClosest(coords, callback);
