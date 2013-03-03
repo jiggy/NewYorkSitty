@@ -11,9 +11,16 @@
 var map;
 $(document).ready(function() {
 	console.log("DOM ready");
-    map = new sitonit.map(); 
-    map.initMap($("#map_canvas").get(0));
+    map = new sitonit.map();
 
+    map.initMap($("#map_canvas").get(0));
+    
+    console.info("map:",map);
+
+    google.maps.event.addListener(map.map, 'dragend', function(event) {
+    	alert("done dragging!");
+    });
+ 
 	var gotClosest = function(closest) {
 		map.clearMarkers();
 		$(closest).each(function(i, pop) {
@@ -46,6 +53,7 @@ $(document).ready(function() {
 <input type="submit" id="mapit" value="Find a seat" />
 
 </form>
+<ul id="didjamean"></ul>
 <div id="map_canvas"></div>
 <div class="info-window">
 	<div><img src="img/poplogo_icon.png" /></div>

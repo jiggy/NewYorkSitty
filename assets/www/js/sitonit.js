@@ -1,9 +1,14 @@
 var sitonit = {}; // namespace
 sitonit.map = function() { // main class for the map of POPs
 	
-	var defaultPosition = new google.maps.LatLng(40.730218,-73.973351);
+	// Default position and zoom captures lower Manhattan and downtown Brooklyn
+    var defaultMapOptions = {
+      center: new google.maps.LatLng(40.730218,-73.973351),
+      zoom: 13,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
 	
-	var map; // reference to google.maps.Map object
+	var gmap = undefined; // reference to google.maps.Map object
 	var geocoder = new google.maps.Geocoder();
 	var markers = []; // store list of placed markers because Google API doesn't do it for you
 	
@@ -12,7 +17,7 @@ sitonit.map = function() { // main class for the map of POPs
 		return Math.pow(pointB.lat()-pointA.lat(), 2) + Math.pow(pointB.lng()-pointA.lng(), 2);
 	}
 	
-	// maintain list of POPs in sorted order with a fixed limit
+	// maintain list of POPs in sorted order with a fixed list size
 	function insertSorted(list, item, limit) {
 		var i = 0;
 		while (i < list.length) {
@@ -32,22 +37,22 @@ sitonit.map = function() { // main class for the map of POPs
 			list.pop();
 			return true;
 		}
-		return false;
+		return false; // nothing was inserted
 	}
 	// Search the DB for nearest POPs from center point
-	function findClosest(center/* LatLng*/, callback) {
-		console.log(center);
+	function findClosest(center/* LatLng */, callback) {
+		console.info("Finding POPs near", center);
 		var limit = 10;
 		var closest = [];
 		$(pops).each(function(i, pop) {
 			var popCoords = pop.geodata.geometry.location; // {lat:,lng:}
-			console.log("Computing distance to " + pop.address + "[" + popCoords.lat + "," + popCoords.lng + "]");
+			//console.debug("Computing distance to " + pop.address + "[" + popCoords.lat + "," + popCoords.lng + "]");
 			var dist = computeDistance(center, new google.maps.LatLng(popCoords.lat, popCoords.lng));
-			console.log("Distance is " + dist);
+			//console.debug("Distance is " + dist);
 			pop.distance = dist;
 			insertSorted(closest, pop, limit);
 		});
-		console.log(closest);
+		console.info("Closest", closest);
 		callback(closest);
 
 	}
@@ -65,21 +70,16 @@ sitonit.map = function() { // main class for the map of POPs
 	}
 	return {
 		initMap: function(div) {
-			console.log("Adding map to " + div);
-		    var mapOptions = {
-		      center: defaultPosition,
-		      zoom: 13,
-		      mapTypeId: google.maps.MapTypeId.ROADMAP
-		    };
-		    map = new google.maps.Map(div, mapOptions);
-		    console.log(map);
+			console.info("Adding map to", div);
+		    gmap = new google.maps.Map(div, defaultMapOptions);
+		    this.map = gmap;
 		    return this;
 		},
 		addPop: function(pop) {
-			if (!map) return;
+			if (!gmap) return;
 			var coords = pop.geodata.geometry.location;
 			var marker = new google.maps.Marker({
-				map: map,
+				map: gmap,
 				position: new google.maps.LatLng(coords.lat, coords.lng),
 				title:(pop.name ? pop.name + " " : "") + pop.address,
 				icon: 'img/poplogo_icon_16X16.png'
@@ -103,31 +103,37 @@ sitonit.map = function() { // main class for the map of POPs
 			markers.push(marker);
 		},
 		findByAddress: function(address, callback) {
-			console.log("Finding address " + address);
+			console.info("Finding address " + address);
 			if (address) {
 				geocoder.geocode( { 'address': address}, function(results, status) {
-					console.log("Geocode status: " + status);
+					console.debug("Geocode status: ", status);
+					console.debug("Results, ", results);
+					if (results.length > 1) {
+						for (var i = 0; i < results.length; i++) {
+							$("#didjamean").append($("<li>Or did you mean " + results[i].formatted_address + "</li>"));
+						}
+					}
 					var coords = results[0].geometry.location; // LatLng object
 					findClosest(coords, callback);
 				});
 			} else {
-				console.log("Getting phone's position");
+				console.info("Getting phone's position");
 				navigator.geolocation.getCurrentPosition(function(position) {
-					console.log("Position: " + position);
+					console.info("Position: " + position);
 					findClosest(new google.maps.LatLng(position.coords.latitude, position.coords.longitude), callback);
 				},
 				function(error) {
-					console.log("Failed to retrieve current position " + error.message +
+					console.warn("Failed to retrieve current position " + error.message +
 							", status:" + error.status);
 				},{enableHighAccuracy:true});
 			}
 		},
 		setBoundsByMarkers: function() {
-			var bounds = new google.maps.LatLngBounds();
+			var bounds = new google.maps.LatLngBounds(); 
 			$(markers).each(function(i, marker) {
 				bounds.extend(marker.position);
 			});	
-			map.fitBounds(bounds);
+			gmap.fitBounds(bounds);
 		},
 		clearMarkers: function() {
 			for(var i = 0; i < markers.length; i++) {
