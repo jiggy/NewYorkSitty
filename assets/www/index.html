@@ -23,6 +23,7 @@ $(document).ready(function() {
  
 	var gotClosest = function(closest) {
 		map.clearMarkers();
+		map.showCentroid();
 		$(closest).each(function(i, pop) {
 			var marker = map.addPop(pop);
 		});	
@@ -31,6 +32,7 @@ $(document).ready(function() {
 
 	function clicked(e) {
 		console.log("Mapping result");
+		$("#didjamean").empty();
 		var address = $("input[name=address]").attr("value")
 		if (address != '') {
 			address += " New York, NY";

@@ -11,6 +11,7 @@ sitonit.map = function() { // main class for the map of POPs
 	var gmap = undefined; // reference to google.maps.Map object
 	var geocoder = new google.maps.Geocoder();
 	var markers = []; // store list of placed markers because Google API doesn't do it for you
+	var centroid = undefined; // marker for the spot being searched near
 	
 	// thank you Pythagoras
 	function computeDistance(pointA, pointB) {
@@ -42,6 +43,11 @@ sitonit.map = function() { // main class for the map of POPs
 	// Search the DB for nearest POPs from center point
 	function findClosest(center/* LatLng */, callback) {
 		console.info("Finding POPs near", center);
+		centroid = new google.maps.Marker({
+			map: gmap,
+			position: center,
+			title: "START"
+		});
 		var limit = 10;
 		var closest = [];
 		$(pops).each(function(i, pop) {
@@ -54,7 +60,6 @@ sitonit.map = function() { // main class for the map of POPs
 		});
 		console.info("Closest", closest);
 		callback(closest);
-
 	}
 	var openWindows = [];
 	function openWindow(marker) {
@@ -74,6 +79,11 @@ sitonit.map = function() { // main class for the map of POPs
 		    gmap = new google.maps.Map(div, defaultMapOptions);
 		    this.map = gmap;
 		    return this;
+		},
+		showCentroid: function() {
+			if (centroid && centroid.setMap) {
+				centroid.setMap(gmap);
+			}
 		},
 		addPop: function(pop) {
 			if (!gmap) return;
@@ -109,10 +119,10 @@ sitonit.map = function() { // main class for the map of POPs
 					console.debug("Geocode status: ", status);
 					console.debug("Results, ", results);
 					if (results.length > 1) {
+						console.info("Multiple results");
 						resultsCallback(results);
 					}
-					var coords = results[0].geometry.location; // LatLng object
-					findClosest(coords, callback);
+					findClosest(results[0].geometry.location, callback);
 				});
 			} else {
 				console.info("Getting phone's position");
@@ -134,6 +144,7 @@ sitonit.map = function() { // main class for the map of POPs
 			gmap.fitBounds(bounds);
 		},
 		clearMarkers: function() {
+			centroid.setMap(null);
 			for(var i = 0; i < markers.length; i++) {
 				markers[i].setMap(null);
 			}
