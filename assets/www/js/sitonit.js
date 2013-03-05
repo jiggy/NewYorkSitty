@@ -11,7 +11,6 @@ sitonit.map = function() { // main class for the map of POPs
 	var gmap = undefined; // reference to google.maps.Map object
 	var geocoder = new google.maps.Geocoder();
 	var markers = []; // store list of placed markers because Google API doesn't do it for you
-	var centroid = undefined; // marker for the spot being searched near
 	
 	// thank you Pythagoras
 	function computeDistance(pointA, pointB) {
@@ -43,11 +42,6 @@ sitonit.map = function() { // main class for the map of POPs
 	// Search the DB for nearest POPs from center point
 	function findClosest(center/* LatLng */, callback) {
 		console.info("Finding POPs near", center);
-		centroid = new google.maps.Marker({
-			map: gmap,
-			position: center,
-			title: "START"
-		});
 		var limit = 10;
 		var closest = [];
 		$(pops).each(function(i, pop) {
@@ -59,7 +53,7 @@ sitonit.map = function() { // main class for the map of POPs
 			insertSorted(closest, pop, limit);
 		});
 		console.info("Closest", closest);
-		callback(closest);
+		callback(center, closest);
 	}
 	var openWindows = [];
 	function openWindow(marker) {
@@ -80,10 +74,13 @@ sitonit.map = function() { // main class for the map of POPs
 		    this.map = gmap;
 		    return this;
 		},
-		showCentroid: function() {
-			if (centroid && centroid.setMap) {
-				centroid.setMap(gmap);
-			}
+		showCentroid: function(center) {
+			console.log("center",center);
+			markers.push(new google.maps.Marker({
+				map: gmap,
+				position: center,
+				title: "START"
+			}));
 		},
 		addPop: function(pop) {
 			if (!gmap) return;
@@ -132,13 +129,15 @@ sitonit.map = function() { // main class for the map of POPs
 							resultsCallback(results);
 						}
 					}
-					findClosest(results[0].geometry.location, callback);
+					var center = results[0].geometry.location;
+					findClosest(center, callback);
 				});
 			} else {
 				console.info("Getting phone's position");
 				navigator.geolocation.getCurrentPosition(function(position) {
 					console.info("Position: " + position);
-					findClosest(new google.maps.LatLng(position.coords.latitude, position.coords.longitude), callback);
+					var center = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+					findClosest(center, callback);
 				},
 				function(error) {
 					console.warn("Failed to retrieve current position " + error.message +
@@ -154,7 +153,6 @@ sitonit.map = function() { // main class for the map of POPs
 			gmap.fitBounds(bounds);
 		},
 		clearMarkers: function() {
-			centroid.setMap(null);
 			for(var i = 0; i < markers.length; i++) {
 				markers[i].setMap(null);
 			}

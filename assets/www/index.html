@@ -21,12 +21,12 @@ $(document).ready(function() {
     	// redo search within bounds
     });
  
-	var gotClosest = function(closest) {
+	var gotClosest = function(center, closest) {
 		map.clearMarkers();
-		map.showCentroid();
 		$(closest).each(function(i, pop) {
 			var marker = map.addPop(pop);
 		});	
+		map.showCentroid(center);
 		map.setBoundsByMarkers();
 	};
 
@@ -38,7 +38,8 @@ $(document).ready(function() {
 			address += " New York, NY";
 		}
 		console.log("Finding address " + address);
-		map.findByAddress(address, gotClosest, addSuggestions);
+		var center = map.findByAddress(address, gotClosest, addSuggestions);
+		map.showCentroid(center);
 
 		return false;
 	}
@@ -50,7 +51,8 @@ $(document).ready(function() {
 		$("#didjamean li a").click(function() {
 			console.info("pick address", this);
 			$("#didjamean").empty();
-			map.findByAddress(this.innerText, gotClosest, addSuggestions);
+			var center = map.findByAddress(this.innerText, gotClosest, addSuggestions);
+			map.showCentroid(center);
 			return false;
 		});
 	}
