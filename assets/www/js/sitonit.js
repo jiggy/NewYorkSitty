@@ -119,8 +119,18 @@ sitonit.map = function() { // main class for the map of POPs
 					console.debug("Geocode status: ", status);
 					console.debug("Results, ", results);
 					if (results.length > 1) {
-						console.info("Multiple results");
-						resultsCallback(results);
+						console.info("Multiple results", results);
+						// check if one of the alternate results is an exact match
+						var match = false;
+						for (var i = 0; i < results.length; i++) {
+							if (results[0].formatted_address == address) {
+								match = true;
+								break;
+							}
+						}
+						if (!match) {
+							resultsCallback(results);
+						}
 					}
 					findClosest(results[0].geometry.location, callback);
 				});
