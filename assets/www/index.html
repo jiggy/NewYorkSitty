@@ -4,6 +4,8 @@
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="css/styles.css" />
 <script src="js/libs/jquery-1.8.2.min.js"></script>
+<script src="js/libs/jquery.mustache.js"></script>
+<script src="js/libs/mustache.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDXzEqJNIaU_aWf9lDkdzNRCIEOiyyLizs&sensor=false"></script>
 <script src="js/data.min.js"></script>
 <script src="js/sitonit.js"></script>
@@ -28,6 +30,9 @@ $(document).ready(function() {
 		});	
 		map.showCentroid(center);
 		map.setBoundsByMarkers();
+		$(".get-directions").click(function(e) {
+			alert("hi");
+		});
 	};
 
 	function clicked(e) {
@@ -44,17 +49,20 @@ $(document).ready(function() {
 		return false;
 	}
 	
+	function addressSelected(e) {
+		console.info("pick address", this);
+		$("#didjamean").empty();
+		var center = map.findByAddress(this.innerText, gotClosest, addSuggestions);
+		map.showCentroid(center);
+		return false;
+	}
+	
 	function addSuggestions(results) {
 		for (var i = 0; i < results.length; i++) {
-			$("#didjamean").append($("<li>Or did you mean <a href=\"" + results[i].formatted_address + "\">" + results[i].formatted_address + "</a></li>"));
+			$("#didjamean").append($("<li>" + (i == 0 ? "Showing map for " : "Or did you mean ") +
+				"<a href=\"" + results[i].formatted_address + "\">" + results[i].formatted_address + "</a></li>"));
 		}
-		$("#didjamean li a").click(function() {
-			console.info("pick address", this);
-			$("#didjamean").empty();
-			var center = map.findByAddress(this.innerText, gotClosest, addSuggestions);
-			map.showCentroid(center);
-			return false;
-		});
+		$("#didjamean li a").click(addressSelected);
 	}
 	
 	$("#mapit").bind("touchstart", clicked);
@@ -71,11 +79,14 @@ $(document).ready(function() {
 </form>
 <ul id="didjamean"></ul>
 <div id="map_canvas"></div>
+<script type="text/html" id="poppop">
 <div class="info-window">
 	<div><img src="img/poplogo_icon.png" /></div>
-	<div class="name">Place name</div>
-	<div class="address"></div>
-	<div class="description"></div>
+	<div>{{name}}</div>
+	<div>{{address}}</div>
+	<div>{{description}}</div>
+	<a href="#" onclick="alert('hi');" class="get-directions">Show walking path</a>
 </div>
+</script>
 </body>
 </html>

@@ -10,7 +10,12 @@ sitonit.map = function() { // main class for the map of POPs
 	
 	var gmap = undefined; // reference to google.maps.Map object
 	var geocoder = new google.maps.Geocoder();
+	var directionsDisplay = new google.maps.DirectionsRenderer();
+	var directionsService = new google.maps.DirectionsService();
+	$.Mustache.addFromDom(); 
+
 	var markers = []; // store list of placed markers because Google API doesn't do it for you
+	var centroid;
 	
 	// thank you Pythagoras
 	function computeDistance(pointA, pointB) {
@@ -41,14 +46,13 @@ sitonit.map = function() { // main class for the map of POPs
 	}
 	// Search the DB for nearest POPs from center point
 	function findClosest(center/* LatLng */, callback) {
+		centroid = center;
 		console.info("Finding POPs near", center);
 		var limit = 10;
 		var closest = [];
 		$(pops).each(function(i, pop) {
 			var popCoords = pop.geodata.geometry.location; // {lat:,lng:}
-			//console.debug("Computing distance to " + pop.address + "[" + popCoords.lat + "," + popCoords.lng + "]");
 			var dist = computeDistance(center, new google.maps.LatLng(popCoords.lat, popCoords.lng));
-			//console.debug("Distance is " + dist);
 			pop.distance = dist;
 			insertSorted(closest, pop, limit);
 		});
@@ -68,10 +72,25 @@ sitonit.map = function() { // main class for the map of POPs
 		});
 	}
 	return {
+		showRoute : function(destination) {
+			var req = {
+				travelMode: google.maps.TravelMode.WALKING,
+				origin: centroid,
+				destination: destination
+			};
+			directionsService.route(req, function(result, status) {
+				console.log("status", status);
+				console.log("results", result);
+		        if (status == google.maps.DirectionsStatus.OK) {
+		        	directionsDisplay.setDirections(result);
+		        }
+			});
+		},
 		initMap: function(div) {
 			console.info("Adding map to", div);
 		    gmap = new google.maps.Map(div, defaultMapOptions);
 		    this.map = gmap;
+			directionsDisplay.setMap(gmap);
 		    return this;
 		},
 		showCentroid: function(center) {
@@ -91,16 +110,11 @@ sitonit.map = function() { // main class for the map of POPs
 				title:(pop.name ? pop.name + " " : "") + pop.address,
 				icon: 'img/poplogo_icon_16X16.png'
 			});
-			var node = $(".info-window").clone();
-			if (pop.name) {
-				node.find(".name").text(pop.name);
-			}
-			if (pop.address) {
-				node.find(".address").text(pop.address);
-			}
-			if (pop.location) {
-				node.find(".description").text(pop.location);
-			}
+			var node = $($.Mustache.render('poppop', {
+				name:pop.name,
+				address:pop.address,
+				description:pop.location
+			}));
 			marker.info = new google.maps.InfoWindow({
 				  content: node.show().get(0)
 				});
