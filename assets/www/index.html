@@ -30,9 +30,6 @@ $(document).ready(function() {
 		});	
 		map.showCentroid(center);
 		map.setBoundsByMarkers();
-		$(".get-directions").click(function(e) {
-			alert("hi");
-		});
 	};
 
 	function clicked(e) {
@@ -85,7 +82,7 @@ $(document).ready(function() {
 	<div>{{name}}</div>
 	<div>{{address}}</div>
 	<div>{{description}}</div>
-	<a href="#" onclick="alert('hi');" class="get-directions">Show walking path</a>
+	<a data-address="{{address}}" href="#" onclick="map.showRoute($(this).data('address'));" class="get-directions">Show walking path</a>
 </div>
 </script>
 </body>
