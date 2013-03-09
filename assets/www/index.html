@@ -6,6 +6,7 @@
 <script src="js/libs/jquery-1.8.2.min.js"></script>
 <script src="js/libs/jquery.mustache.js"></script>
 <script src="js/libs/mustache.js"></script>
+<script src="js/libs/ga.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDXzEqJNIaU_aWf9lDkdzNRCIEOiyyLizs&sensor=false"></script>
 <script src="js/data.min.js"></script>
 <script src="js/sitonit.js"></script>
@@ -13,6 +14,9 @@
 var map;
 $(document).ready(function() {
 	console.log("DOM ready");
+	var t = _gat._getTracker("UA-39142355-1")
+	t._trackPageview();
+
     map = new sitonit.map();
 
     map.initMap($("#map_canvas").get(0));
@@ -34,6 +38,7 @@ $(document).ready(function() {
 
 	function clicked(e) {
 		console.log("Mapping result");
+		t._trackPageview();
 		$("#didjamean").empty();
 		var address = $("input[name=address]").attr("value")
 		if (address != '') {
