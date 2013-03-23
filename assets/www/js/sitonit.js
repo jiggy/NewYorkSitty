@@ -1,8 +1,8 @@
 var sitonit = {}; // namespace
-sitonit.map = function() { // main class for the map of POPs
+sitonit.map = function(mapOptions) { // main class for the map of POPs
 	
 	// Default position and zoom captures lower Manhattan and downtown Brooklyn
-    var defaultMapOptions = {
+    var defaultMapOptions = mapOptions || {
       center: new google.maps.LatLng(40.730218,-73.973351),
       zoom: 13,
       mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -19,7 +19,8 @@ sitonit.map = function() { // main class for the map of POPs
 	
 	// thank you Pythagoras
 	function computeDistance(pointA, pointB) {
-		return Math.pow(pointB.lat()-pointA.lat(), 2) + Math.pow(pointB.lng()-pointA.lng(), 2);
+		return Math.pow(pointB.lat() - pointA.lat(), 2) +
+			Math.pow(pointB.lng() - pointA.lng(), 2);
 	}
 	
 	// maintain list of POPs in sorted order with a fixed list size
@@ -104,16 +105,19 @@ sitonit.map = function() { // main class for the map of POPs
 		addPop: function(pop) {
 			if (!gmap) return;
 			var coords = pop.geodata.geometry.location;
+			var pos = new google.maps.LatLng(coords.lat, coords.lng);
 			var marker = new google.maps.Marker({
 				map: gmap,
-				position: new google.maps.LatLng(coords.lat, coords.lng),
+				position: pos,
 				title:(pop.name ? pop.name + " " : "") + pop.address,
 				icon: 'img/poplogo_icon_16X16.png'
 			});
 			var node = $($.Mustache.render('poppop', {
 				name:pop.name,
 				address:pop.address,
-				description:pop.location
+				description:pop.location,
+				lat:pos.lat(),
+				lng:pos.lng()
 			}));
 			marker.info = new google.maps.InfoWindow({
 				  content: node.show().get(0)

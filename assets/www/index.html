@@ -33,7 +33,12 @@ $(document).ready(function() {
 	t._setDomainName("none");
 	t._trackPageview();*/
 
-    map = new sitonit.map();
+    map = new sitonit.map({
+    	// Default position and zoom captures lower Manhattan and downtown Brooklyn
+      center: new google.maps.LatLng(40.730218,-73.973351),
+      zoom: 13,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
 
     map.initMap($("#map_canvas").get(0));
     
@@ -104,6 +109,7 @@ $(document).ready(function() {
 	<div>{{address}}</div>
 	<div>{{description}}</div>
 	<a data-address="{{address}}" href="#" onclick="map.showRoute($(this).data('address'));" class="get-directions">Show walking path</a>
+	<div><a href="http://maps.google.com/maps?q={{address}}&hl=en&sll={{lat}},{{lng}}&z=18" target="gmap">View in Google Maps</a></div>
 </div>
 </script>
 </body>
