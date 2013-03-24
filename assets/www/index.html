@@ -27,8 +27,12 @@
 <script src="js/data.min.js"></script>
 <script src="js/sitonit.js"></script>
 <script>
+var deviceReady = false;
+var domReady = false;
+document.addEventListener("deviceready", function(){deviceReady = true; if (domReady) init();}, false);
 var map;
-$(document).ready(function() {
+$(document).ready(function() {domReady = true; if (deviceReady) init();});
+function init() {
 	console.log("DOM ready");
 /*	var t = _gat._getTracker("UA-39142355-1");
 	t._setDomainName("none");
@@ -91,7 +95,7 @@ $(document).ready(function() {
 	
 	$("#mapit").bind("touchstart", clicked);
 	$("#mapit").click(clicked);
-});	
+}
 </script>
 </head>
 <body>
