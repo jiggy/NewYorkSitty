@@ -128,7 +128,7 @@ sitonit.map = function(mapOptions) { // main class for the map of POPs
 			markers.push(marker);
 		},
 		findByAddress: function(address, callback, resultsCallback) {
-			console.info("Finding address " + address);
+			console.info("Finding address ", address);
 			if (address) {
 				geocoder.geocode( { 'address': address}, function(results, status) {
 					console.debug("Geocode status: ", status);
@@ -153,14 +153,13 @@ sitonit.map = function(mapOptions) { // main class for the map of POPs
 			} else {
 				console.info("Getting phone's position");
 				navigator.geolocation.getCurrentPosition(function(position) {
-					console.info("Position: " + position);
+					console.info("Position: ", position);
 					var center = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 					findClosest(center, callback);
 				},
 				function(error) {
-					console.warn("Failed to retrieve current position " + error.message +
-							", status:" + error.status);
-				},{enableHighAccuracy:true});
+					console.warn("Failed to retrieve current position", error);
+				},{enableHighAccuracy:true,maximumAge:60000,timeout:5000});	
 			}
 		},
 		setBoundsByMarkers: function() {
