@@ -3,7 +3,7 @@
 <title>Hey! Sit on it!</title>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="css/styles.css" />
-<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script src="js/libs/geoPosition.js"></script>
 <script src="js/libs/jquery-1.8.2.min.js"></script>
 <script src="js/libs/jquery.mustache.js"></script>
 <script src="js/libs/mustache.js"></script>
@@ -27,75 +27,71 @@
 <script src="js/data.min.js"></script>
 <script src="js/sitonit.js"></script>
 <script>
-var deviceReady = false;
-var domReady = false;
-document.addEventListener("deviceready", function(){deviceReady = true; if (domReady) init();}, false);
 var map;
-$(document).ready(function() {domReady = true; if (deviceReady) init();});
-function init() {
-	console.log("DOM ready");
-/*	var t = _gat._getTracker("UA-39142355-1");
-	t._setDomainName("none");
-	t._trackPageview();*/
-
-    map = new sitonit.map({
-    	// Default position and zoom captures lower Manhattan and downtown Brooklyn
-      center: new google.maps.LatLng(40.730218,-73.973351),
-      zoom: 13,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    });
-
-    map.initMap($("#map_canvas").get(0));
-    
-    console.info("map:",map);
-
-    google.maps.event.addListener(map.map, 'dragend', function(event) {
-    	// redo search within bounds
-    });
- 
-	var gotClosest = function(center, closest) {
-		map.clearMarkers();
-		$(closest).each(function(i, pop) {
-			var marker = map.addPop(pop);
-		});	
-		map.showCentroid(center);
-		map.setBoundsByMarkers();
-	};
-
-	function clicked(e) {
-		console.log("Mapping result");
-		_gaq.push(['_trackEvent', 'location_search', 'clicked']);
-		$("#didjamean").empty();
-		var address = $("input[name=address]").attr("value")
-		if (address != '') {
-			address += " New York, NY";
+$(document).ready(function() {
+		console.log("DOM ready");
+	/*	var t = _gat._getTracker("UA-39142355-1");
+		t._setDomainName("none");
+		t._trackPageview();*/
+	
+	    map = new sitonit.map({
+	    	// Default position and zoom captures lower Manhattan and downtown Brooklyn
+	      center: new google.maps.LatLng(40.730218,-73.973351),
+	      zoom: 13,
+	      mapTypeId: google.maps.MapTypeId.ROADMAP
+	    });
+	
+	    map.initMap($("#map_canvas").get(0));
+	    
+	    console.info("map:",map);
+	
+	    google.maps.event.addListener(map.map, 'dragend', function(event) {
+	    	// redo search within bounds
+	    });
+	 
+		var gotClosest = function(center, closest) {
+			map.clearMarkers();
+			$(closest).each(function(i, pop) {
+				var marker = map.addPop(pop);
+			});	
+			map.showCentroid(center);
+			map.setBoundsByMarkers();
+		};
+	
+		function clicked(e) {
+			console.log("Mapping result");
+			_gaq.push(['_trackEvent', 'location_search', 'clicked']);
+			$("#didjamean").empty();
+			var address = $("input[name=address]").attr("value")
+			if (address != '') {
+				address += " New York, NY";
+			}
+			console.log("Finding address " + address);
+			var center = map.findByAddress(address, gotClosest, addSuggestions);
+			map.showCentroid(center);
+	
+			return false;
 		}
-		console.log("Finding address " + address);
-		var center = map.findByAddress(address, gotClosest, addSuggestions);
-		map.showCentroid(center);
-
-		return false;
-	}
-	
-	function addressSelected(e) {
-		console.info("pick address", this);
-		$("#didjamean").empty();
-		var center = map.findByAddress(this.innerText, gotClosest, addSuggestions);
-		map.showCentroid(center);
-		return false;
-	}
-	
-	function addSuggestions(results) {
-		for (var i = 0; i < results.length; i++) {
-			$("#didjamean").append($("<li>" + (i == 0 ? "Showing map for " : "Or did you mean ") +
-				"<a href=\"" + results[i].formatted_address + "\">" + results[i].formatted_address + "</a></li>"));
+		
+		function addressSelected(e) {
+			console.info("pick address", this);
+			$("#didjamean").empty();
+			var center = map.findByAddress(this.innerText, gotClosest, addSuggestions);
+			map.showCentroid(center);
+			return false;
 		}
-		$("#didjamean li a").click(addressSelected);
-	}
-	
-	$("#mapit").bind("touchstart", clicked);
-	$("#mapit").click(clicked);
-}
+		
+		function addSuggestions(results) {
+			for (var i = 0; i < results.length; i++) {
+				$("#didjamean").append($("<li>" + (i == 0 ? "Showing map for " : "Or did you mean ") +
+					"<a href=\"" + results[i].formatted_address + "\">" + results[i].formatted_address + "</a></li>"));
+			}
+			$("#didjamean li a").click(addressSelected);
+		}
+		
+		$("#mapit").bind("touchstart", clicked);
+		$("#mapit").click(clicked);
+	});
 </script>
 </head>
 <body>

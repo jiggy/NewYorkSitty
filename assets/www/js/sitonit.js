@@ -152,14 +152,18 @@ sitonit.map = function(mapOptions) { // main class for the map of POPs
 				});
 			} else {
 				console.info("Getting phone's position");
-				navigator.geolocation.getCurrentPosition(function(position) {
-					console.info("Position: ", position);
-					var center = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-					findClosest(center, callback);
-				},
-				function(error) {
-					console.warn("Failed to retrieve current position", error);
-				},{enableHighAccuracy:true,maximumAge:60000,timeout:5000});	
+				if(geoPosition.init()) {
+					navigator.geolocation.getCurrentPosition(function(position) {
+						console.info("Position: ", position);
+						var center = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+						findClosest(center, callback);
+					},
+					function(error) {
+						console.warn("Failed to retrieve current position", error);
+					},{enableHighAccuracy:true,maximumAge:60000,timeout:5000});	
+				} else {
+					console.warn("Failed to init geopos");
+				}
 			}
 		},
 		setBoundsByMarkers: function() {
