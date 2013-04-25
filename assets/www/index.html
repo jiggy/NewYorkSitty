@@ -3,7 +3,7 @@
 <title>Hey! Sit on it!</title>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="css/styles.css" />
-<script src="js/libs/geoPosition.js"></script>
+<script src="cordova-2.6.0.js"></script>
 <script src="js/libs/jquery-1.8.2.min.js"></script>
 <script src="js/libs/jquery.mustache.js"></script>
 <script src="js/libs/mustache.js"></script>
@@ -23,13 +23,29 @@
 
 </script>
 
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDXzEqJNIaU_aWf9lDkdzNRCIEOiyyLizs&sensor=false"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDXzEqJNIaU_aWf9lDkdzNRCIEOiyyLizs&sensor=true"></script>
 <script src="js/data.min.js"></script>
 <script src="js/sitonit.js"></script>
 <script>
 var map;
+var domReady = false;
+var devReady = false;
+document.addEventListener('deviceready', function() {
+	console.log("Device ready");
+	devReady = true;
+	if (domReady) {
+		ready();
+	}
+}, false);
 $(document).ready(function() {
-		console.log("DOM ready");
+	console.log("DOM ready");
+	domReady = true;
+	if (devReady) {
+		ready();
+	}
+});
+var ready = function() {
+	console.log("DOM and device ready");
 	/*	var t = _gat._getTracker("UA-39142355-1");
 		t._setDomainName("none");
 		t._trackPageview();*/
@@ -91,7 +107,7 @@ $(document).ready(function() {
 		
 		$("#mapit").bind("touchstart", clicked);
 		$("#mapit").click(clicked);
-	});
+	};
 </script>
 </head>
 <body>
