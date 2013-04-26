@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, DummydroidActivity!</string>
-    <string name="app_name">Hey, Sit on It!</string>
+    <string name="app_name">New York Sitty</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_sit_on_it">SItOnItActivity</string>
