@@ -4,7 +4,7 @@
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="css/styles.css" />
 <script src="cordova-2.6.0.js"></script>
-<script src="js/libs/jquery-1.8.2.min.js"></script>
+<script src="js/libs/zepto.min.js"></script>
 <script src="js/libs/jquery.mustache.js"></script>
 <script src="js/libs/mustache.js"></script>
 <script src="js/libs/ga.js"></script>
@@ -26,7 +26,7 @@
 </script>
 
 <script src="js/data.min.js"></script>
-<script src="js/sitonit.js"></script>
+<script src="js/app.js"></script>
 <script>
 var map;
 var domReady = false;
@@ -51,7 +51,7 @@ var ready = function() {
 		t._setDomainName("none");
 		t._trackPageview();*/
 	
-	    map = new sitonit.map({
+	    map = new app.map({
 	    	// Default position and zoom captures lower Manhattan and downtown Brooklyn
 	      center: new google.maps.LatLng(40.730218,-73.973351),
 	      zoom: 13,
@@ -116,9 +116,10 @@ var ready = function() {
 <label for="address">Enter address:</label>
 <input type="text" name="address" placeholder="Street address or blank for current location" size="50" maxlength="1024" />
 <input type="submit" id="mapit" value="Find a seat" />
-
 </form>
+
 <ul id="didjamean"></ul>
+
 <div id="map_canvas"></div>
 <script type="text/html" id="poppop">
 <div class="info-window">

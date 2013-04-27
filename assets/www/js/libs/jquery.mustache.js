@@ -210,4 +210,4 @@
 		});
 	};
 
-}(jQuery, window));
+}(Zepto, window));

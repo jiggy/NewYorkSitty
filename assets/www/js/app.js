@@ -1,5 +1,5 @@
-var sitonit = {}; // namespace
-sitonit.map = function(mapOptions) { // main class for the map of POPs
+var app = {}; // namespace
+app.map = function(mapOptions) { // main class for the map of POPs
 	
 	// Default position and zoom captures lower Manhattan and downtown Brooklyn
     var defaultMapOptions = mapOptions || {
