@@ -3,8 +3,11 @@
 <title>Hey! Sit on it!</title>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css" />
 <script src="cordova-2.6.0.js"></script>
-<script src="js/libs/zepto.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/libs/jquery-1.8.3.min.js"></script>
 <script src="js/libs/jquery.mustache.js"></script>
 <script src="js/libs/mustache.js"></script>
 <script src="js/libs/ga.js"></script>
@@ -112,14 +115,22 @@ var ready = function() {
 </script>
 </head>
 <body>
-<form id="finder">
-<label for="address">Enter address:</label>
-<input type="text" name="address" placeholder="Street address or blank for current location" size="50" maxlength="1024" />
-<input type="submit" id="mapit" value="Find a seat" />
-</form>
+<div class="container">
+	<form id="finder" class="form-horizontal">
+		<div class="control-group">
+			<label class="control-label" for="address">Enter address:</label>
+			<div class="controls">
+				<input type="text" class="input-block-level" name="address" placeholder="Street address or blank for current location" maxlength="1024" />
+			</div>
+		</div>
+		<div class="controls">
+			<input type="submit" class="btn btn-large btn-primary" id="mapit" value="Find a seat" />
 
-<ul id="didjamean"></ul>
-
+		</div>
+	</form>
+		
+		<ul id="didjamean"></ul>
+</div>
 <div id="map_canvas"></div>
 <script type="text/html" id="poppop">
 <div class="info-window">
