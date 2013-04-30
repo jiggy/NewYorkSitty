@@ -118,12 +118,15 @@ var ready = function() {
 <body>
 <div class="container">
 	<form id="finder" class="form-search">
-		<div class="input-prepend">
-			<button type="submit" class="btn" id="mapit">
+		<div class="input-prepend input-append">
+			<label for="address" class="add-on">
           		Sit near
-      		</button>
-			<input id="address-input" type="text" class="search-query input-medium" name="address"
+      		</label>
+			<input id="address-input" type="text" class="input-medium" name="address"
 				placeholder="current location" maxlength="1024" />
+			<button type="submit" class="btn" id="mapit">
+          		<i class="icon-search"></i>
+      		</button>
      	</div>
 	</form>
 	
