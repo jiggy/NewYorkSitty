@@ -1,17 +1,31 @@
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0; font-family: verdana, sans-serif; }
+.toprow {
+	text-align:center;
+	margin-top: 5px;
+	height:100%
+}
+#didjamean {
+	text-align:left;
+}
+
 #map_canvas {
 	line-height:normal;
 	height: 90%;
 }
 .info-window {
 	display: none;
-	font-size: 0.6em;
-	max-width:200px;
+	margin: -5%;
+	text-align:left;
 }
-.name {
-	font-size: 1.2em;
+hr {
+	margin: 5px !important;
 }
-.address {
-	font-weight: bold;
+.info-window .name {
+	font-weight: 150%;
 }
+.info-window .icon {
+	float:left;
+	margin-right: 2px;
+}
+iframe, object, embed { width: 100%; }

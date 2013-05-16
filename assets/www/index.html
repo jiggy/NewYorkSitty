@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css/styles.css" />
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css" />
-<fscript src="cordova-2.6.0.js"></script>
+<fscript src="cordova-2.6.0.js"></fscript>
 <script src="js/libs/jquery-1.8.3.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/libs/jquery.mustache.js"></script>
@@ -116,13 +116,14 @@ var ready = function() {
 </script>
 </head>
 <body>
-<div class="container">
+<div class="row toprow">
+	<div class="span4">
 	<form id="finder" class="form-search">
 		<div class="input-prepend input-append">
-			<label for="address" class="add-on">
+			<label for="address" class="add-on btn-info">
           		Sit near
       		</label>
-			<input id="address-input" type="text" class="input-medium" name="address"
+			<input id="address-input" type="text" class="input-large" name="address"
 				placeholder="current location" maxlength="1024" />
 			<button type="submit" class="btn" id="mapit">
           		<i class="icon-search"></i>
@@ -131,16 +132,22 @@ var ready = function() {
 	</form>
 	
 	<ul id="didjamean"></ul>
+	</div>
+	<div class="span8" id="map_canvas"></div>
 </div>
-<div id="map_canvas"></div>
 <script type="text/html" id="poppop">
 <div class="info-window">
-	<div><img src="img/poplogo_icon.png" /></div>
-	<div>{{name}}</div>
-	<div>{{address}}</div>
-	<div>{{description}}</div>
-	<a data-address="{{address}}" href="#" onclick="map.showRoute($(this).data('address'));" class="get-directions">Show walking path</a>
-	<div><a href="http://maps.google.com/maps?q={{address}}&hl=en&sll={{lat}},{{lng}}&z=18" target="gmap">View in Google Maps</a></div>
+	<div class="icon"><img src="img/poplogo_icon.png" /></div>
+	<div class="description">
+		<div class="name">{{name}}</div>
+		<div>{{address}}</div>
+		<div>{{description}}</div>
+	</div>
+	<hr />
+	<div class="cta">
+		<a data-address="{{address}}" href="#" onclick="map.showRoute($(this).data('address'));" class="get-directions"><img src="img/walking_icon.png" /></a>
+		<a href="http://maps.google.com/maps?q={{address}}&hl=en&sll={{lat}},{{lng}}&z=18" target="gmap"><img src="img/maps_icon.png" /></a>
+	</div>
 </div>
 </script>
 </body>
